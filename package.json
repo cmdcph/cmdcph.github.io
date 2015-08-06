@@ -1,0 +1,29 @@
+{
+  "name": "cmdcph",
+  "version": "2.0.0",
+  "description": "Clever Minds Development Center Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cmdcph/cmdc-web.git"
+  },
+  "keywords": [
+    "preschool"
+  ],
+  "author": "hello@erikathea.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmdcph/cmdc-web/issues"
+  },
+  "devDependencies": {
+    "grunt-exec": "~0.4.6",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-connect": "~0.11.2",
+    "grunt-bower-task": "~0.4.0"
+  }
+}

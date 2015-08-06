@@ -9,3 +9,15 @@ facebook_username:  cmdcph
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - "bower_components"
+  - "bower.json"
+  - "node_modules"
+  - "package.json"
+  - "Gruntfile.coffee"
+  - "Rakefile"
+  - "Gemfile"
+  - "Gemfile.lock"
+include:
+  - .nojekyll

@@ -1,0 +1,25 @@
+{
+  "name": "cmdcph",
+  "version": "2.0.0",
+  "homepage": "https://github.com/cmdcph/cmdc-web",
+  "authors": [
+    "hello@erikathea.com"
+  ],
+  "description": "Clever Minds Development Center Official Website",
+  "main": "index.html",
+  "keywords": [
+    "preschool"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.4.0"
+  }
+}
