@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cmdcph/cmdc-web.git"
+    "url": "git://github.com/cmdcph/cmdcph.github.io.git"
   },
   "keywords": [
     "preschool"
@@ -16,7 +16,7 @@
   "author": "hello@erikathea.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cmdcph/cmdc-web/issues"
+    "url": "https://github.com/cmdcph/cmdcph.github.io/issues"
   },
   "devDependencies": {
     "grunt-exec": "~0.4.6",
