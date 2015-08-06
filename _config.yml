@@ -21,3 +21,4 @@ exclude:
   - "Gemfile.lock"
 include:
   - .nojekyll
+  - CNAME
