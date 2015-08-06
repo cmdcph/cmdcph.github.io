@@ -2,7 +2,7 @@
   "name": "cmdcph",
   "version": "2.0.0",
   "description": "Clever Minds Development Center Official Website",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
