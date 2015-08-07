@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include index/head-links.html %}
+
+    <style>
+      body {
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- {% include index/navbar.html %} -->
+
+    <div class="main">
+      {{ content }}
+    </div>
+
+    <hr />
+    {% include index/footer.html %}
+  </body>
+
+</html>
+
