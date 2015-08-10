@@ -4,6 +4,9 @@ body {
   body h1, body h2, body h3, body h4, body h5, body h6, body .title, body .strong {
     font-family: "Chewy"; }
 
+footer {
+  background: white; }
+
 .title {
   font-size: 28px;
   color: #2c3e50; }
@@ -14,22 +17,22 @@ body {
 
 .home {
   min-height: 100vh; }
+  .home .main {
+    background: url("/images/kids.png") rgba(250, 225, 135, 0.75) center; }
   .home .jumbotron {
     margin-top: 10px;
     min-height: 85vh;
-    background-color: white; }
-  .home .main {
-    background-color: white; }
-  .home .sec-1 {
-    background-color: #c10000; }
-  .home .sec-2 {
-    background-color: #ffc400;
-    margin-top: 15px; }
-    .home .sec-2 .jumbotron {
+    background: none; }
+  .home .sec-1, .home .sub {
+    background-color: rgba(193, 0, 0, 0.9); }
+    .home .sec-1 .jumbotron, .home .sub .jumbotron {
+      background-color: white; }
+  .home .sec-2, .home .sec-4 {
+    background-color: rgba(255, 196, 0, 0.85); }
+    .home .sec-2 .jumbotron, .home .sec-4 .jumbotron {
       background: none; }
   .home .sec-3 {
-    background-color: #0d3088;
-    margin-top: 35px; }
+    background-color: rgba(13, 48, 136, 0.9); }
     .home .sec-3 .jumbotron {
       background: none; }
     .home .sec-3 .table {
@@ -65,9 +68,9 @@ body {
     .home .admission h4 {
       color: #0d3088; }
   .home .facilities, .home .activities {
-    min-height: 50vh;
+    min-height: 30vh;
     border-radius: 6px;
-    background-color: #ffc400;
+    background-color: white;
     color: #000;
     padding-top: 10px;
     padding-bottom: 20px; }
