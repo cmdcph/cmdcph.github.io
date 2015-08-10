@@ -36,15 +36,27 @@ layout: index
   <div class="row">
 
     <div class="col-xs-12 col-md-6">
-      <div class="jumbotron tagline">
+      <div class="jumbotron">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 facilities">
               <h2>Facilities</h2>
-                <ul>
-                  <li>Airconditioned classrooms</li>
-                  <li>Computer with internet connection</li>
-                  <li>Reading Areas</li>
-                  <li>Playgrounds</li>
+                <ul class="fa-ul">
+                  <li>
+                    <i class="fa-li fa fa-star"></i>
+                    Airconditioned classrooms
+                  </li>
+                  <li>
+                    <i class="fa-li fa fa-laptop"></i>
+                    Computer with internet connection
+                  </li>
+                  <li>
+                    <i class="fa-li fa fa-book"></i>
+                    Reading Areas
+                  </li>
+                  <li>
+                    <i class="fa-li fa fa-child"></i>
+                    Playgrounds
+                  </li>
                 </ul>
             </div>
             <div class="col-md-8">
@@ -55,28 +67,18 @@ layout: index
 
         </div>
     </div>
+
     <div class="col-xs-12 col-md-6">
-
-      <div class="jumbotron tagline">
-          <div class="row">
-            <div class="col-md-4">
-              <h2>School Activities</h2>
-                <ul>
-                  <li>Field Trip</li>
-                  <li>Sports Fest</li>
-                  <li>NutriCamp</li>
-                  <li>Little Mr. & Ms. United Nations</li>
-                  <li>National Language Week</li>
-                  <li>Get Together Party</li>
-                  <li>Medical and Dental Check-up</li>
-                </ul>
-            </div>
-            <div class="col-md-8">
-              {% include index/facebook.html %}
-            </div>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-4 activities">
+            {% include index/activities.html %}
           </div>
-
+          <div class="col-md-8">
+            {% include index/facebook.html %}
+          </div>
         </div>
+      </div>
     </div>
   </div>
 </div>
