@@ -15,16 +15,51 @@ body {
 .home {
   min-height: 100vh; }
   .home .jumbotron {
-    margin-top: 5px;
-    min-height: 85vh; }
+    margin-top: 10px;
+    min-height: 85vh;
+    background-color: white; }
+  .home .main {
+    background-color: white; }
+  .home .sec-1 {
+    background-color: #c10000; }
+  .home .sec-2 {
+    background-color: #ffc400;
+    margin-top: 15px; }
+    .home .sec-2 .jumbotron {
+      background: none; }
+  .home .sec-3 {
+    background-color: #0d3088;
+    margin-top: 35px; }
+    .home .sec-3 .jumbotron {
+      background: none; }
+    .home .sec-3 .table {
+      background: white;
+      color: #000; }
+  .home .info address strong {
+    color: #000;
+    font-size: 16px; }
+  .home .info address i {
+    color: #000; }
+  .home .info address .web, .home .info address .facebook, .home .info address .email {
+    color: #0d3088; }
+  .home .info address .address {
+    color: #c10000; }
   .home .tagline p {
-    font-size: 17px; }
+    font-size: 17px;
+    color: #000; }
   .home .mission-vision p {
-    font-size: 14px; }
+    font-size: 14px;
+    color: #222; }
     .home .mission-vision p strong {
       font-size: 24px;
-      font-family: "Chewy"; }
+      font-family: "Chewy";
+      color: #c10000; }
   .home .admission {
-    padding: 0px 30px 0px 30px; }
+    padding: 0px 30px 0px 30px;
+    color: white; }
     .home .admission div {
       font-size: 12px; }
+    .home .admission h3, .home .admission i {
+      color: #ffc400; }
+    .home .admission h4 {
+      color: #0d3088; }
