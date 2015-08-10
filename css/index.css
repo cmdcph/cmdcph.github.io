@@ -34,7 +34,8 @@ body {
       background: none; }
     .home .sec-3 .table {
       background: white;
-      color: #000; }
+      color: #000;
+      border-radius: 12px; }
   .home .info address strong {
     color: #000;
     font-size: 16px; }
@@ -59,7 +60,19 @@ body {
     color: white; }
     .home .admission div {
       font-size: 12px; }
-    .home .admission h3, .home .admission i {
+    .home .admission h2, .home .admission i {
       color: #ffc400; }
     .home .admission h4 {
       color: #0d3088; }
+  .home .facilities, .home .activities {
+    min-height: 50vh;
+    border-radius: 6px;
+    background-color: #ffc400;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 20px; }
+    .home .facilities h2, .home .activities h2 {
+      color: #c10000; }
+    .home .facilities ul li, .home .activities ul li {
+      padding-top: 5px;
+      padding-bottom: 5px; }
