@@ -19,6 +19,10 @@ body {
   }
 }
 
+footer {
+  background: white;
+}
+
 .title {
   font-size: 28px;
   color: $midnight-blue;
@@ -31,23 +35,23 @@ body {
 
 .home {
   min-height: 100vh;
-
+  .main { background: url('/images/kids.png') rgba(250,225,135,0.75) center; }
   .jumbotron {
     margin-top: 10px;
     min-height: 85vh;
-    background-color: white;
+    background: none;
   }
 
-  .main { background-color: white; }
-  .sec-1 { background-color: $red; }
-  .sec-2 {
-    background-color: $yellow;
-    margin-top: 15px;
+  .sec-1, .sub {
+    background-color: rgba(193,0,0,0.9);
+    .jumbotron { background-color: white; }
+  }
+  .sec-2, .sec-4 {
+    background-color: rgba(255,196,0,0.85);
     .jumbotron { background: none; }
   }
   .sec-3 {
-    background-color: $blue;
-    margin-top: 35px;
+    background-color: rgba(13,48,136,0.9);
     .jumbotron { background: none; }
     .table { background: white; color: $black; border-radius: 12px; }
   }
@@ -87,9 +91,9 @@ body {
   }
 
   .facilities, .activities {
-    min-height: 50vh;
+    min-height: 30vh;
     border-radius: 6px;
-    background-color: $yellow;
+    background-color: white;
     color: $black;
     padding-top: 10px;
     padding-bottom: 20px;
