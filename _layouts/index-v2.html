@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta name="author" content="Clever Minds Development Center - PH">
+
+    <meta name = "keywords" content = "preschool, kindergarten, nursery, preparatory, Philippines, " />
+
+    <link rel="icon" href="{{ "/images/logo.ico" | prepend: site.baseurl }}">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <link rel="stylesheet" href="/vendor/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendor/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="{{ "/css/index-v2.css" | prepend: site.baseurl }}" media="screen,projection">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <div class="main">
+      {{ content }}
+    </div>
+
+    <br/>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v7/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+      }
+
+      .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        word-wrap: normal;
+        -webkit-font-feature-settings: 'liga';
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+
+    <script src="/vendor/js/jquery.min.js"></script>
+    <script src="/vendor/js/materialize.min.js"></script>
+
+    <script type="text/javascript">
+      (function($){
+        $(function(){
+          $('.button-collapse').sideNav();
+          $('.parallax').parallax();
+          $('ul.tabs').tabs();
+          $('.collapsible').collapsible({
+            accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+          });
+        }); // end of document ready
+      })(jQuery); // end of jQuery name space
+    </script>
+  </body>
+
+</html>
+

@@ -62,6 +62,140 @@ module.exports = (grunt) ->
           src: "glyphicons-halflings-regular.woff2"
           dest: "vendor/fonts/"
         }]
+      materialize:
+        files: [{
+          expand: true
+          cwd: "bower_components/materialize/dist/css/"
+          src: "materialize.min.css"
+          dest: "vendor/css/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/js/"
+          src: "materialize.min.js"
+          dest: "vendor/js/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/material-design-icons/"
+          src: "Material-Design-Icons.eot"
+          dest: "vendor/font/material-design-icons/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/material-design-icons/"
+          src: "Material-Design-Icons.svg"
+          dest: "vendor/font/material-design-icons/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/material-design-icons/"
+          src: "Material-Design-Icons.ttf"
+          dest: "vendor/font/material-design-icons/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/material-design-icons/"
+          src: "Material-Design-Icons.woff"
+          dest: "vendor/font/material-design-icons/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/material-design-icons/"
+          src: "Material-Design-Icons.woff2"
+          dest: "vendor/font/material-design-icons/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Bold.ttf"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Bold.woff"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Bold.woff2"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Light.ttf"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Light.woff"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Light.woff2"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Medium.ttf"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Medium.woff"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Medium.woff2"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Regular.ttf"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Regular.woff"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Regular.woff2"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Thin.ttf"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Thin.woff"
+          dest: "vendor/font/roboto/"
+        },
+        {
+          expand: true
+          cwd: "bower_components/materialize/dist/font/roboto/"
+          src: "Roboto-Thin.woff2"
+          dest: "vendor/font/roboto/"
+        }
+        ]
       fontawesome:
         files: [{
           expand: true
