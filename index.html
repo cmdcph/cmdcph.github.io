@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="/vendor/css/font-awesome.min.css">
     <link rel="stylesheet" href="/vendor/css/materialize.min.css" media="screen,projection">
-    <link rel="stylesheet" href="/css/index-v2.css" media="screen,projection">
+    <link rel="stylesheet" href="/css/index-v2.min.css" media="screen,projection">
 
     <link rel="canonical" href="http://cmdcph.com/">
 
@@ -31,26 +31,8 @@
     <![endif]-->
 
     <style type="text/css">
-      @font-face {
-        font-family: 'Material Icons';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v7/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
-      }
-
-      .material-icons {
-        font-family: 'Material Icons';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 24px;
-        line-height: 1;
-        letter-spacing: normal;
-        text-transform: none;
-        display: inline-block;
-        word-wrap: normal;
-        -webkit-font-feature-settings: 'liga';
-        -webkit-font-smoothing: antialiased;
-      }
+      @font-face { font-family: 'Material Icons'; font-style: normal; font-weight: 400; src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v7/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2'); }
+      .material-icons { font-family: 'Material Icons'; font-weight: normal; font-style: normal; font-size: 24px; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; word-wrap: normal; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
     </style>
 
   </head>
@@ -210,7 +192,7 @@
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
           <div class="row center">
-            <h5 class="header col s12 light"> As the children begin to develop trust and confidence, their development are influenced by the experiences they get from their environment hence they should be given consistent nurturance, sensory stimulation, and a good role model.</h5>
+            <h5 class="col s12 light"> As the children begin to develop trust and confidence, their development are influenced by the experiences they get from their environment hence they should be given consistent nurturance, sensory stimulation, and a good role model.</h5>
           </div>
       </div>
       <div class="parallax"><img src="/images/008.jpg" alt="image"></div>
@@ -788,7 +770,6 @@
 
 
 
-
     </div>
 
     <br/>
@@ -797,17 +778,7 @@
     <script src="/vendor/js/materialize.min.js"></script>
 
     <script type="text/javascript">
-      (function($){
-        $(function(){
-          $('.button-collapse').sideNav();
-          $('.parallax').parallax();
-          $('ul.tabs').tabs();
-          $('.slider').slider();
-          $('.collapsible').collapsible({
-            accordion : false
-          });
-        });
-      })(jQuery);
+      (function($){ $(function(){ $('.button-collapse').sideNav(); $('.parallax').parallax(); $('ul.tabs').tabs(); $('.slider').slider(); $('.collapsible').collapsible({ accordion : false }); }); })(jQuery);
     </script>
   </body>
 
