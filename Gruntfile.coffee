@@ -7,6 +7,9 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-connect"
   grunt.loadNpmTasks "grunt-contrib-copy"
   grunt.loadNpmTasks "grunt-contrib-watch"
+  grunt.loadNpmTasks "grunt-contrib-imagemin"
+  grunt.loadNpmTasks "grunt-contrib-htmlmin"
+  grunt.loadNpmTasks "grunt-contrib-cssmin"
   grunt.loadNpmTasks "grunt-exec"
 
   grunt.initConfig
@@ -239,6 +242,30 @@ module.exports = (grunt) ->
           src: "fontawesome-webfont.woff2"
           dest: "vendor/fonts/"
         }]
+
+    cssmin:
+      dist:
+        options:
+          keepSpecialComments: 0
+          check: 'gzip'
+        files: [{
+          expand: true
+          cwd: "css/"
+          src: ["*.css"]
+          dest: "css/"
+        }]
+
+    imagemin:
+      options:
+        progressive: true
+      dist:
+        files: [{
+          expand: true
+          cwd: "images/"
+          src: "*.{jpg, jgpeg, png, gif}"
+          dest: "images/"
+        }]
+
     exec:
       jekyll:
         cmd: "bundle exec jekyll build --trace"
@@ -271,6 +298,8 @@ module.exports = (grunt) ->
 
   grunt.registerTask "build", [
     "copy"
+    "imagemin"
+    "cssmin"
     "exec:jekyll"
   ]
 
