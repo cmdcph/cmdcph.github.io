@@ -3,7 +3,7 @@
   <div class="nav-wrapper row">
 
     <a id="logo-container" href="/" class="brand-logo">
-      <img src="{{ "/images/logo.png" | prepend: site.baseurl }}" alt="cmdc logo" class="img-responsive img-circle" width="48" height="48"/>
+      <img src="{{ "/images/logo.png" | prepend: site.baseurl }}" alt="cmdc logo" class="img-responsive img-circle" width="48" height="48" />
       <span class="grey-text">CMDC</span>
     </a>
     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -18,7 +18,7 @@
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
-      <li><a href="/">Clever Minds <br/> Development Center</a><br/></li>
+      <li><a href="/">Clever Minds <br /> Development Center</a><br /></li>
       <li><a href="#courses" title="Courses"><i class="fa fa-graduation-cap"></i></a></li>
       <li><a href="#fees" title="Fees"><i class="fa fa-newspaper-o"></i></a></li>
       <li><a href="#calendar" title="Calendar"><i class="fa fa-calendar"></i></a></li>
@@ -34,12 +34,28 @@
   <div id="index-banner" class="parallax-container valign-wrapper col s12 m12">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
+        <br /><br />
         <div class="row center">
-          <h5 class="header col s12 light flow-text">Clever Minds Development Center is committed in providing the community a well-organized environment that supports and nurtures young children’s intellectual, social, physical, and emotional development. CMDC would like to help children in adjusting to an environment outside the nuclear family. CMDC is devoted in providing a good place where parents can safely put their children.</h5>
+          <h5 class="header col s12 light flow-text editable">Clever Minds Development Center is committed in providing the community a well-organized environment that supports and nurtures young children’s intellectual, social, physical, and emotional development. CMDC would like to help children in adjusting to an environment outside the nuclear family. CMDC is devoted in providing a good place where parents can safely put their children.</h5>
         </div>
 
-        <br><br>
+        <div class="row">
+          {% for post in site.posts %}
+
+              <div class="col s12 m4">
+                <div class="card red darken-3">
+                  <div class="card-content white-text">
+                    <span class="card-title editable">
+                      {{ post.title }}
+                    </span>
+                    <p class="editable"> {{ post.excerpt }} </p>
+                  </div>
+                </div>
+              </div>
+          {% endfor %}
+        </div>
+
+        <br /><br />
 
       </div>
     </div>
@@ -70,28 +86,28 @@
       <div class="col s12 m3">
         <div class="icon-block row">
           <h2 class="center red-text"><i class="fa fa-puzzle-piece"></i></h2>
-          <h5 class="center light grey-text">Classroom Proper</h5>
+          <h5 class="center light grey-text editable">Classroom Proper</h5>
         </div>
       </div>
 
       <div class="col s12 m3">
         <div class="icon-block">
           <h2 class="center light-green-text"><i class="fa fa-bus"></i></h2>
-          <h5 class="center light grey-text">Field Trip</h5>
+          <h5 class="center light grey-text editable">Field Trip</h5>
         </div>
       </div>
 
       <div class="col s12 m3">
         <div class="icon-block">
           <h2 class="center amber-text"><i class="fa fa-soccer-ball-o"></i></h2>
-          <h5 class="center light grey-text">Sports Fest</h5>
+          <h5 class="center light grey-text editable">Sports Fest</h5>
         </div>
       </div>
 
       <div class="col s12 m3">
         <div class="icon-block">
           <h2 class="center blue-text"><i class="fa fa-cutlery"></i></h2>
-          <h5 class="center light grey-text">NutriCamp</h5>
+          <h5 class="center light grey-text editable">NutriCamp</h5>
         </div>
       </div>
     </div>
@@ -99,28 +115,28 @@
       <div class="col s12 m3">
         <div class="icon-block row">
           <h2 class="center yellow-text"><i class="fa fa-medkit"></i></h2>
-          <h5 class="center light grey-text">Medical & Dental Checkup</h5>
+          <h5 class="center light grey-text editable">Medical & Dental Checkup</h5>
         </div>
       </div>
 
       <div class="col s12 m3">
         <div class="icon-block">
           <h2 class="center red-text"><i class="fa fa-flag"></i></h2>
-          <h5 class="center light grey-text">Little Mr & Ms United Nations</h5>
+          <h5 class="center light grey-text editable">Little Mr & Ms United Nations</h5>
         </div>
       </div>
 
       <div class="col s12 m3">
         <div class="icon-block">
           <h2 class="center light-green-text"><i class="fa fa-language"></i></h2>
-          <h5 class="center light grey-text">National Language Week</h5>
+          <h5 class="center light grey-text editable">National Language Week</h5>
         </div>
       </div>
 
       <div class="col s12 m3">
         <div class="icon-block">
           <h2 class="center amber-text"><i class="fa fa-group"></i></h2>
-          <h5 class="center light grey-text">Get Together Party</h5>
+          <h5 class="center light grey-text editable">Get Together Party</h5>
         </div>
       </div>
 
@@ -130,15 +146,15 @@
       <div class="col s12 m6">
         <div class="icon-block">
           <h2 class="center blue-text"><i class="fa fa-child"></i></h2>
-          <h5 class="center light grey-text">Tutorial Service *</h5>
-          <h6 class="light grey-text"><small>* Per schedule basis. Please contact us if you are interested in availing this service.</small></h6>
+          <h5 class="center light grey-text editable">Tutorial Service *</h5>
+          <h6 class="light grey-text editable"><small>* Per schedule basis. Please contact us if you are interested in availing this service.</small></h6>
         </div>
       </div>
 
       <div class="col s12 m6">
         <div class="icon-block">
           <h2 class="center yellow-text"><i class="fa fa-sun-o"></i></h2>
-          <h5 class="center light grey-text">Summer Class</h5>
+          <h5 class="center light grey-text editable">Summer Class</h5>
         </div>
       </div>
     </div>
@@ -151,137 +167,137 @@
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
           <div class="row center">
-            <h5 class="col s12 light"> As the children begin to develop trust and confidence, their development are influenced by the experiences they get from their environment hence they should be given consistent nurturance, sensory stimulation, and a good role model.</h5>
+            <h5 class="col s12 light editable"> As the children begin to develop trust and confidence, their development are influenced by the experiences they get from their environment hence they should be given consistent nurturance, sensory stimulation, and a good role model.</h5>
           </div>
       </div>
-      <div class="parallax"><img src="{{ "/images/008.jpg" | prepend: site.baseurl }}" alt="image"></div>
+      <div class="parallax"><img src="{{ "/images/008.jpg" | prepend: site.baseurl }}" alt="image" /></div>
     </div>
   </div>
 
   <section class="container" id="courses">
     <h3 class="header center"><i class="fa fa-graduation-cap blue-text"></i></h3>
     <h4 class="header center blue-text text-darken-3">Courses Offered</h4>
-    <h5 class="light center blue-text"> Minimum number of students for maximum learning. Student-Teacher Ratio 6:1</h5>
+    <h5 class="light center blue-text editable"> Minimum number of students for maximum learning. Student-Teacher Ratio 6:1</h5>
 
     <div class="card medium col s12 m6 hoverable">
       <div class="card-image blue-grey darken-3 waves-effect waves-block waves-light">
-        <img class="activator move-top responsive-img" src="{{ "images/009.jpg" | prepend: site.baseurl }}">
+        <img class="activator move-top responsive-img editable" src="{{ "images/009.jpg" | prepend: site.baseurl }}" />
       </div>
       <div class="card-content amber white-text">
-        <span class="card-title activator">Toddler<i class="fa fa-ellipsis-v right"></i></span>
-        <p> 2 to 2½ years <small class="activator blue-text">  View More</small></p>
+        <span class="card-title activator editable">Toddler<i class="fa fa-ellipsis-v right"></i></span>
+        <p class="editable"> 2 to 2½ years <small class="activator blue-text">  View More</small></p>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Activities<i class="fa fa-times right"></i></span>
+        <span class="card-title grey-text text-darken-4 editable">Activities<i class="fa fa-times right"></i></span>
         <ul class="collection">
-          <li class="collection-item">Language Activities</li>
-          <li class="collection-item">Fine/Sensory Motor Activities</li>
-          <li class="collection-item">Arts & Music</li>
-          <li class="collection-item">Gross Motor Activities</li>
-          <li class="collection-item">Math Activities</li>
-          <li class="collection-item">Science Activities</li>
-          <li class="collection-item">Dramatic Play</li>
+          <li class="collection-item editable">Language Activities</li>
+          <li class="collection-item editable">Fine/Sensory Motor Activities</li>
+          <li class="collection-item editable">Arts & Music</li>
+          <li class="collection-item editable">Gross Motor Activities</li>
+          <li class="collection-item editable">Math Activities</li>
+          <li class="collection-item editable">Science Activities</li>
+          <li class="collection-item editable">Dramatic Play</li>
         </ul>
       </div>
     </div>
 
     <div class="card medium col s12 m6 hoverable">
       <div class="card-image blue-grey darken-3 waves-effect waves-block waves-light">
-        <img class="activator move-top responsive-img" src="{{ "images/007.jpg" | prepend: site.baseurl }}">
+        <img class="activator move-top responsive-img editable" src="{{ "images/007.jpg" | prepend: site.baseurl }}" />
       </div>
       <div class="card-content light-green white-text">
-        <span class="card-title activator">Nursery<i class="fa fa-ellipsis-v right"></i></span>
-        <p> 3 to 3½ years <small class="activator blue-text">  View More</small></p>
+        <span class="card-title activator editable">Nursery<i class="fa fa-ellipsis-v right"></i></span>
+        <p class="editable"> 3 to 3½ years <small class="activator blue-text">  View More</small></p>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Subjects<i class="fa fa-times right"></i></span>
+        <span class="card-title grey-text text-darken-4 editable">Subjects<i class="fa fa-times right"></i></span>
         <ul class="collection">
-          <li class="collection-item">Math</li>
-          <li class="collection-item">Writing</li>
-          <li class="collection-item">Language</li>
-          <li class="collection-item">English</li>
-          <li class="collection-item">Filipino</li>
+          <li class="collection-item editable">Math</li>
+          <li class="collection-item editable">Writing</li>
+          <li class="collection-item editable">Language</li>
+          <li class="collection-item editable">English</li>
+          <li class="collection-item editable">Filipino</li>
         </ul>
       </div>
     </div>
 
     <div class="card medium white col s12 m6 hoverable">
       <div class="card-image blue-grey darken-3 waves-effect waves-block waves-light">
-        <img class="activator responsive-img" src="{{ "images/011.jpg" | prepend: site.baseurl }}">
-        <br/>
+        <img class="activator responsive-img editable" src="{{ "images/011.jpg" | prepend: site.baseurl }}" />
+        <br />
       </div>
       <div class="card-content white-text red darken-2">
-        <span class="card-title activator">Kindergarten<i class="fa fa-ellipsis-v right"></i></span>
-        <p> 4 to 4½ years <small class="activator blue-text">  View More</small></p>
+        <span class="card-title activator editable">Pre-Kindergarten<i class="fa fa-ellipsis-v right"></i></span>
+        <p class="editable"> 4 to 4½ years <small class="activator blue-text">  View More</small></p>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Subjects<i class="fa fa-times right"></i></span>
+        <span class="card-title grey-text text-darken-4 editable">Subjects<i class="fa fa-times right"></i></span>
         <ul class="collection">
-          <li class="collection-item">Math</li>
-          <li class="collection-item">Writing</li>
-          <li class="collection-item">Language</li>
-          <li class="collection-item">English</li>
-          <li class="collection-item">Filipino</li>
-          <li class="collection-item">Sibika</li>
-          <li class="collection-item">Science</li>
-          <li class="collection-item">Computer</li>
+          <li class="collection-item editable">Math</li>
+          <li class="collection-item editable">Writing</li>
+          <li class="collection-item editable">Language</li>
+          <li class="collection-item editable">English</li>
+          <li class="collection-item editable">Filipino</li>
+          <li class="collection-item editable">Sibika</li>
+          <li class="collection-item editable">Science</li>
+          <li class="collection-item editable">Computer</li>
         </ul>
       </div>
     </div>
 
     <div class="card medium white col s12 m6 hoverable">
       <div class="card-image blue-grey darken-3 waves-effect waves-block waves-light">
-        <img class="activator responsive-img" src="{{ "images/010.jpg" | prepend: site.baseurl }}">
+        <img class="activator responsive-img editable" id="cms-identifiable-513" data-cms-cid="513" src="images/010.jpg" width="1280" height="960" />
       </div>
       <div class="card-content yellow darken-1 white-text">
-        <span class="card-title activator">Preparatory<i class="fa fa-ellipsis-v right"></i></span>
-        <p> 5 to 6 years <small class="activator blue-text"> View More</small></p>
+        <span class="card-title activator editable">Kindergarten<i class="fa fa-ellipsis-v right"></i></span>
+        <p class="editable"> 5 to 6 years <small class="activator blue-text"> View More</small></p>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Subjects<i class="fa fa-times right"></i></span>
+        <span class="card-title grey-text text-darken-4 editable">Subjects<i class="fa fa-times right"></i></span>
         <ul class="collection">
-          <li class="collection-item">Math</li>
-          <li class="collection-item">Writing</li>
-          <li class="collection-item">Language</li>
-          <li class="collection-item">English</li>
-          <li class="collection-item">Filipino</li>
-          <li class="collection-item">Sibika</li>
-          <li class="collection-item">Science</li>
-          <li class="collection-item">Computer</li>
+          <li class="collection-item editable">Math</li>
+          <li class="collection-item editable">Writing</li>
+          <li class="collection-item editable">Language</li>
+          <li class="collection-item editable">English</li>
+          <li class="collection-item editable">Filipino</li>
+          <li class="collection-item editable">Sibika</li>
+          <li class="collection-item editable">Science</li>
+          <li class="collection-item editable">Computer</li>
         </ul>
       </div>
     </div>
   </section>
 
   <section class="container">
-    <h5 class="red-text text-darken-2 center"><i class="fa fa-exclamation-circle red-text"></i> Reminder</h5>
+    <h5 class="red-text text-darken-2 center"><i class="fa fa-exclamation-circle red-text editable"></i> Reminder</h5>
     <ul class="collapsible" data-collapsible="accordion">
       <li>
-        <div class="collapsible-header"><i class="fa fa-briefcase grey-text"></i>Things to Bring</div>
+        <div class="collapsible-header"><i class="fa fa-briefcase grey-text editable"></i>Things to Bring</div>
         <div class="collapsible-body">
           <ul class="collection">
-            <li class="collection-item">Birth Certificate (Photocopy)</li>
-            <li class="collection-item">Pencil (2)</li>
-            <li class="collection-item">Eraser</li>
-            <li class="collection-item">Sharpener</li>
-            <li class="collection-item">Crayon</li>
-            <li class="collection-item">Short Bond Paper (20)</li>
-            <li class="collection-item">Assorted Construction Paper (20)</li>
-            <li class="collection-item">Long Brown Envelope (10)</li>
-            <li class="collection-item">Paper Fasterner (10)</li>
-            <li class="collection-item">Manila Paper</li>
-            <li class="collection-item">Neon Cartolina (any color)</li>
-            <li class="collection-item">Foot Rag</li>
-            <li class="collection-item">
+            <li class="collection-item editable">Birth Certificate/NSO (Photocopy)</li>
+            <li class="collection-item editable">Pencil (2)</li>
+            <li class="collection-item editable">Eraser</li>
+            <li class="collection-item editable">Sharpener</li>
+            <li class="collection-item editable">Crayon</li>
+            <li class="collection-item editable">Short Bond Paper (20)</li>
+            <li class="collection-item editable">Assorted Construction Paper (20)</li>
+            <li class="collection-item editable">Long Brown Envelope (10)</li>
+            <li class="collection-item editable">Paper Fasterner (10)</li>
+            <li class="collection-item editable">Manila Paper</li>
+            <li class="collection-item editable">Neon Cartolina (any color)</li>
+            <li class="collection-item editable">Foot Rag</li>
+            <li class="collection-item editable">
               Health Kit:
               <ul>
-                <li>Batroom Tissue</li>
-                <li>Soap</li>
-                <li>Towel</li>
-                <li>Powder</li>
-                <li>Comb</li>
-                <li>Extra T-shirt</li>
-                <li>Short Pants</li>
+                <li class="editable">Batroom Tissue</li>
+                <li class="editable">Soap</li>
+                <li class="editable">Towel</li>
+                <li class="editable">Powder</li>
+                <li class="editable">Comb</li>
+                <li class="editable">Extra T-shirt</li>
+                <li class="editable">Short Pants</li>
               </ul>
             </li>
           </ul>
@@ -292,13 +308,13 @@
 </div>
 
 <div class="container" id="fees">
-  <hr/>
+  <hr />
   <div class="section">
     <div class="row">
       <div class="col s12 m3">
         <h3 class="yellow-text"><i class="fa fa-newspaper-o"></i></h3>
         <h4 class="yellow-text text-darken-1">Fees</h4>
-        <h5> <small> Nursery / Kindergarten / Preparatory </small> </h5>
+        <h5> <small class="editable"> Nursery / Pre-Kindergarten / Kindergarten </small> </h5>
         <small>Currency: Philippine Peso PHP</small>
       </div>
 
@@ -319,57 +335,57 @@
                 <tbody>
                   <tr>
                     <td>Registration Fee</td>
-                    <td class="right-align">1 050.00</td>
-                    <td class="right-align">1 050.00</td>
+                    <td class="right-align editable">1 200.00</td>
+                    <td class="right-align editable">1 200.00</td>
                   </tr>
                   <tr>
                     <td>Tuition Fee</td>
-                    <td class="right-align">14 400.00</td>
-                    <td class="right-align">1 600.00 <br/>per month</td>
+                    <td class="right-align editable">14 400.00</td>
+                    <td class="right-align editable">1 600.00 <br />per month</td>
                   </tr>
                   <tr>
                     <td>Miscellaneous Fee
                       <small><ul>
-                        <li>ID card & holder</li>
-                        <li>Report card</li>
-                        <li>Class picture</li>
-                        <li>Notebooks with logo</li>
-                        <li>Test papers</li>
-                        <li>Computerized materials</li>
+                        <li class="editable">ID card & holder</li>
+                        <li class="editable">Report card</li>
+                        <li class="editable">Class picture</li>
+                        <li class="editable">Notebooks with logo</li>
+                        <li class="editable">Test papers</li>
+                        <li class="editable">Computerized materials</li>
                       </ul></small>
                     </td>
-                    <td class="right-align">4 200.00</td>
-                    <td class="right-align">4 200.00</td>
+                    <td class="right-align editable">5 000.00</td>
+                    <td class="right-align editable">5 000.00</td>
                   </tr>
                   <tr>
-                    <td>Energy Fee</td>
-                    <td class="right-align">1 850.00</td>
-                    <td class="right-align">185.00 <br/>per month</td>
+                    <td class="editable">Energy Fee</td>
+                    <td class="right-align editable">1 850.00</td>
+                    <td class="right-align editable">185.00 <br />per month</td>
                   </tr>
                   <tr>
-                    <td>Computer Fee</td>
-                    <td class="right-align">600.00</td>
-                    <td class="right-align">60.00 <br/>per month</td>
+                    <td class="editable">Computer Fee</td>
+                    <td class="right-align editable">600.00</td>
+                    <td class="right-align editable">60.00 <br />per month</td>
                   </tr>
                   <tr>
-                    <td>Athletic Fee</td>
-                    <td class="right-align">370.00</td>
-                    <td class="right-align">370.00</td>
+                    <td class="editable">Athletic Fee</td>
+                    <td class="right-align editable">400.00</td>
+                    <td class="right-align editable">400.00</td>
                   </tr>
                   <tr>
                     <td>Library Fee</td>
-                    <td class="right-align">450.00</td>
-                    <td class="right-align">450.00</td>
+                    <td class="right-align editable">500.00</td>
+                    <td class="right-align editable">500.00</td>
                   </tr>
                   <tr>
-                    <td>Medical & Dental Fee</td>
+                    <td class="editable">Medical & Dental Fee</td>
                     <td class="right-align">700.00</td>
                     <td class="right-align">700.00</td>
                   </tr>
                   <tr>
-                    <td><strong>Payment upon Enrollment</strong><br/><br/><br/><br/></td>
-                    <td class="right-align">23 620.00 <br/><br/><br/><br/></td>
-                    <td class="right-align">8 625.00 <br/><br/>1 845.00 <br/>on the following months</td>
+                    <td><strong class="editable">Payment upon Enrollment</strong><br /><br /><br /><br /></td>
+                    <td class="right-align editable">24 650.00 <br /><br /><br /><br /></td>
+                    <td class="right-align editable">9 645.00 <br /><br /><br /></td>
                   </tr>
                 </tbody>
               </table>
@@ -387,20 +403,20 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Toddler</td>
-                    <td class="right-align">2 000.00</td>
+                    <td class="editable">Toddler</td>
+                    <td class="right-align editable">2 200.00</td>
                   </tr>
                   <tr>
-                    <td>Nursery</td>
-                    <td class="right-align">2 500.00</td>
+                    <td class="editable">Nursery</td>
+                    <td class="right-align editable">2 750.00</td>
                   </tr>
                   <tr>
-                    <td>Kindergarten</td>
-                    <td class="right-align">3 000.00</td>
+                    <td class="editable">Pre-Kindergarten</td>
+                    <td class="right-align editable">3 300.00</td>
                   </tr>
                   <tr>
-                    <td>Preparatory</td>
-                    <td class="right-align">3 500.00</td>
+                    <td class="editable">Kindergarten</td>
+                    <td class="right-align editable">3 850.00</td>
                   </tr>
                 </tbody>
               </table>
@@ -412,31 +428,31 @@
               <table class="hoverable bordered centered yellow lighten-5">
                 <thead>
                   <tr>
-                    <th>1 Set</th>
-                    <th>School Uniform</th>
-                    <th>P.E. Uniform</th>
+                    <th class="editable">1 Set</th>
+                    <th class="editable">School Uniform</th>
+                    <th class="editable">P.E. Uniform</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>Small</td>
-                    <td class="right-align">500.00</td>
-                    <td class="right-align">500.00</td>
+                    <td class="right-align editable">550.00</td>
+                    <td class="right-align editable">500.00</td>
                   </tr>
                   <tr>
                     <td>Medium</td>
-                    <td class="right-align">500.00</td>
-                    <td class="right-align">500.00</td>
+                    <td class="right-align editable">550.00</td>
+                    <td class="right-align editable">500.00</td>
                   </tr>
                   <tr>
                     <td>Large</td>
-                    <td class="right-align">550.00</td>
-                    <td class="right-align">550.00</td>
+                    <td class="right-align editable">600.00</td>
+                    <td class="right-align editable">550.00</td>
                   </tr>
                   <tr>
                     <td>Extra Large</td>
-                    <td class="right-align">550.00</td>
-                    <td class="right-align">550.00</td>
+                    <td class="right-align editable">600.00</td>
+                    <td class="right-align editable">550.00</td>
                   </tr>
                 </tbody>
               </table>
@@ -449,7 +465,7 @@
     </div>
 
   </div>
-  <hr/>
+  <hr />
 </div>
 
 
@@ -462,17 +478,17 @@
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="{{ "/images/002.jpg" | prepend: site.baseurl }}" alt="image"></div>
+      <div class="parallax"><img src="{{ "/images/002.jpg" | prepend: site.baseurl }}" alt="image" /></div>
     </div>
   </div>
-</div>
+
 
 <div class="container" id="calendar">
   <div class="section">
     <div class="row">
       <div class="col s12 center">
         <h3><i class="fa fa-calendar red-text"></i></h3>
-        <h4 class="red-text text-darken-4">School Calendar <small>2015 - 2016</small></h4>
+        <h4 class="red-text text-darken-4">School Calendar <small>2016 - 2017</small></h4>
 
          <div class="row">
           <div class="col s12">
@@ -481,14 +497,14 @@
               <li class="tab col s3"><a href="#cal2" class="active">Aug - Sept</a></li>
               <li class="tab col s2"><a href="#cal3">Oct - Nov</a></li>
               <li class="tab col s3"><a href="#cal4">Dec - Jan</a></li>
-              <li class="tab col s2"><a href="#cal5">Feb - Mar</a></li>
+              <li class="tab col s2"><a href="#cal5">Feb - Apr</a></li>
             </ul>
           </div>
           <div id="cal1" class="col s12">
             <ul class="collection">
-              <li class="collection-item"><strong>June 8</strong> Parents Orientation</li>
-              <li class="collection-item"><strong>June 9</strong> Start of Classes</li>
-              <li class="collection-item"><strong>July 7-10</strong> 1st Monthly Exam</li>
+              <li class="collection-item"><strong>June 20</strong> Parents Orientation</li>
+              <li class="collection-item"><strong>July 4</strong> Start of Classes</li>
+              <li class="collection-item"><strong>July 26-29</strong> 1st Monthly Exam</li>
             </ul>
           </div>
           <div id="cal2" class="col s12">
@@ -502,30 +518,30 @@
           </div>
           <div id="cal3" class="col s12">
             <ul class="collection">
-              <li class="collection-item"><strong>Oct 20-23</strong> 2nd Periodic Exam</li>
-              <li class="collection-item"><strong>Oct 24</strong> Little Mr & Ms United Nations</li>
-              <li class="collection-item"><strong>Oct 25 - Nov 1</strong> Semestral Break</li>
+              <li class="collection-item"><strong>Oct 17-20</strong> 2nd Periodic Exam</li>
+              <li class="collection-item"><strong>Oct 21</strong> Little Mr & Ms United Nations</li>
+              <li class="collection-item"><strong>Oct 22 - Nov 1</strong> Semestral Break</li>
               <li class="collection-item"><strong>Nov 2</strong> Resumption of Classes</li>
-              <li class="collection-item"><strong>Nov 7</strong> General Meeting / Distribution of Report Card</li>
-              <li class="collection-item"><strong>Nov 24-27</strong> 3rd Monthly Exam</li>
+              <li class="collection-item"><strong>Nov 5</strong> General Meeting / Card Distribution</li>
+              <li class="collection-item"><strong>Nov28-Dec1</strong> 3rd Monthly Exam</li>
             </ul>
           </div>
           <div id="cal4" class="col s12">
             <ul class="collection">
-              <li class="collection-item"><strong>Dec 5</strong> Field Trip</li>
-              <li class="collection-item"><strong>Dec 15-18</strong> 3rd Periodic Exam</li>
-              <li class="collection-item"><strong>Dec 19 - Jan 3</strong> Holiday Break</li>
-              <li class="collection-item"><strong>Jan 4</strong> Resumption of Classes</li>
-              <li class="collection-item"><strong>Jan 26-29</strong> 4th Monthly Exam</li>
+              <li class="collection-item"><strong>Dec 2</strong> Field Trip</li>
+              <li class="collection-item"><strong>Dec 19-21</strong> 3rd Periodic Exam</li>
+              <li class="collection-item"><strong>Dec22 - Jan2</strong> Holiday Break</li>
+              <li class="collection-item"><strong>Jan 3</strong> Resumption of Classes</li>
+              <li class="collection-item"><strong>Jan31 - Feb3</strong> 4th Monthly Exam</li>
             </ul>
           </div>
           <div id="cal5" class="col s12">
             <ul class="collection">
-              <li class="collection-item"><strong>Feb 5</strong> Pictorial</li>
-              <li class="collection-item"><strong>Feb 6</strong> General Meeting / Distribution of Report Card</li>
-              <li class="collection-item"><strong>Feb 23-26</strong> Semi-Final Exam</li>
-              <li class="collection-item"><strong>Mar 15-18</strong> Final Exam</li>
-              <li class="collection-item"><strong>Mar 31</strong> Graduation</li>
+              <li class="collection-item"><strong>Feb 10</strong> Pictorial</li>
+              <li class="collection-item"><strong>Feb 11</strong> General Meeting / Card Distribution</li>
+              <li class="collection-item"><strong>Feb28 - Mar3</strong> Semi-Final Exam</li>
+              <li class="collection-item"><strong>Apr 3-5</strong> Final Exam</li>
+              <li class="collection-item"><strong>Apr 25</strong> Graduation</li>
             </ul>
           </div>
         </div>
@@ -536,7 +552,7 @@
 </div>
 
 <div id="facilities" class="container">
-  <hr/>
+  <hr />
   <div class="center">
     <h3><i class="fa fa-building light-green-text"></i></h3>
     <h4 class="light-green-text text-darken-2">Facilities</h4>
@@ -546,7 +562,7 @@
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="{{ "/images/f01.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f01.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption light-green lighten-1">
           <div class="container">
             <h5 class="light grey-text text-lighten-3">Classroom</h5>
@@ -554,55 +570,55 @@
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f02.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f02.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption center-align light-green">
           <h5 class="light grey-text text-lighten-3">Reading Area</h5>
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f03.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f03.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption left-align light-green">
           <h5 class="light grey-text text-lighten-3"> School Proper</h5>
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f04.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f04.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption center-align light-green">
           <h5 class="light grey-text text-lighten-3">Playground</h5>
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f05.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f05.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption right-align light-green">
           <h5 class="light grey-text text-lighten-3">Waiting Area</h5>
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f06.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f06.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption left-align light-green">
           <h5 class="light grey-text text-lighten-3">School Proper</h5>
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f07.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f07.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption right-align light-green">
           <h5 class="light grey-text text-lighten-3">Children's Bookshelf</h5>
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f08.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f08.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption center-align light-green">
           <h5 class="light grey-text text-lighten-3">Classroom</h5>
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f09.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f09.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption left-align light-green">
           <h5 class="light grey-text text-lighten-3">Reading Area</h5>
         </div>
       </li>
       <li>
-        <img src="{{ "/images/f10.jpg" | prepend: site.baseurl }}" alt="facilities"/>
+        <img src="{{ "/images/f10.jpg" | prepend: site.baseurl }}" alt="facilities" />
         <div class="caption center-align light-green">
           <h5 class="light grey-text text-lighten-3">Reading area</h5>
         </div>
@@ -612,7 +628,7 @@
 </div>
 
 <div class="container" id="teachers">
-    <hr/>
+    <hr />
     <div class="center">
       <h3><i class="fa fa-user amber-text"></i></h3>
       <h4 class="amber-text text-darken-2">School Faculty / Teacher</h4>
@@ -620,7 +636,7 @@
     <div class="row medium valign-wrapper">
       <div class="card amber lighten-2 ">
         <div class="card-image">
-          <img src="{{ "/images/001.jpg" | prepend: site.baseurl }}" class="responsive-img" alt="image">
+          <img src="{{ "/images/001.jpg" | prepend: site.baseurl }}" class="responsive-img" alt="image" />
 
             <small class="caption card-title">Teacher Elsa & Teacher Mildred</small>
 
@@ -651,35 +667,33 @@
 
     </div>
   </div>
-</div>
+
 
 <div class="row card-panel" id="map">
   <div class="card-panel center col s12 m3 blue-grey lighten-4" id="contact">
-    <hr/>
+    <hr />
     <div class="section">
       <h3><i class="fa fa-map-marker red-text text-darken-3"></i></h3>
       <h4>Contact Us</h4>
       <p class="left-align light">
         <address>
-          <strong> Clever Minds Development Center </strong> <br/>
-          <abbr title="Address"><i class="address glyphicon glyphicon-map-marker fa fa-map-marker"></i></abbr> 352 Sitio Lote, Brgy. Lecheria<br/>
-          Calamba City, Laguna<br/>
-          Philippines 4027<br/>
-          <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 9 AM to 6 PM<br/>
-          <abbr title="Phone"><i class="fa fa-phone"></i></abbr> +63 (49) 545 9201<br/>
-          <abbr title="Website"><i class="web fa fa-globe"></i></abbr> <a href="http://cmdcph.com">cmdcph.com</a><br/>
-          <abbr title="Email"><i class="email fa fa-envelope"></i></abbr> <a href="mailto:cmdc.ph@gmail.com">cmdc.ph@gmail.com</a><br/>
+          <strong> Clever Minds Development Center </strong> <br />
+          <abbr title="Address"><i class="address glyphicon glyphicon-map-marker fa fa-map-marker"></i></abbr> 352 Sitio Lote, Brgy. Lecheria<br />
+          Calamba City, Laguna<br />
+          Philippines 4027<br />
+          <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 9 AM to 6 PM<br />
+          <abbr title="Phone"><i class="fa fa-phone"></i></abbr> +63 (49) 545 9201<br />
+          <abbr title="Website"><i class="web fa fa-globe"></i></abbr> <a href="http://cmdcph.com">cmdcph.com</a><br />
+          <abbr title="Email"><i class="email fa fa-envelope"></i></abbr> <a href="mailto:cmdc.ph@gmail.com">cmdc.ph@gmail.com</a><br />
           <abbr title="facebook"><i class="facebook fa fa-facebook-square"></i></abbr> <a href="http://www.facebook.com/cmdcph" target="_blank">cmdcph</a>
         </address>
       </p>
     </div>
-    <hr/>
+    <hr />
   </div>
   <div class="col s12 m9">
     <div class="video-container no-controls">
-      <iframe frameborder="0"
-      marginheight="0" marginwidth="0" scrolling="no" class="embed-responsive-item"
-      src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Clever+Minds+Development+Center&amp;aq=&amp;sll=14.204087,121.161819&amp;sspn=0.011607,0.021136&amp;ie=UTF8&amp;hq=Clever+Minds+Development+Center&amp;hnear=&amp;t=m&amp;ll=14.209891,121.160231&amp;spn=0.012481,0.012875&amp;z=15&amp;iwloc=A&amp;output=embed">
+      <iframe frameborder="0" marginheight="0" marginwidth="0" scrolling="no" class="embed-responsive-item" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Clever+Minds+Development+Center&amp;aq=&amp;sll=14.204087,121.161819&amp;sspn=0.011607,0.021136&amp;ie=UTF8&amp;hq=Clever+Minds+Development+Center&amp;hnear=&amp;t=m&amp;ll=14.209891,121.160231&amp;spn=0.012481,0.012875&amp;z=15&amp;iwloc=A&amp;output=embed">
       </iframe>
       <br />
       <small>
@@ -696,8 +710,8 @@
     <div class="row">
       <div class="col l6 s12">
         <h5 class="grey-text text-darken-3">Clever Minds Development Center</h5>
-        <span class="grey-text text-darken-1">We nurture and support your child's growth and development.</span><br/>
-        <span class="grey-text text-darken-1">Courses: Toddlers, Nursery, Kinder, Preparatory.</span>
+        <span class="grey-text text-darken-1">We nurture and support your child's growth and development.</span><br />
+        <span class="grey-text text-darken-1">Courses: Toddlers, Nursery, Pre-Kindergarten, Kindergarten.</span>
       </div>
       <div class="col l3 s12">
         <ul>
@@ -711,11 +725,11 @@
       </div>
       <div class="col l3 s12 grey-text text-darken-2">
         <address>
-          <abbr title="Address"><i class="fa fa-map-marker"></i></abbr> 352 Sitio Lote, Brgy. Lecheria, Calamba City, Laguna <br/>Philippines 4027<br/>
-          <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 9 AM to 6 PM<br/>
-          <abbr title="Phone"><i class="fa fa-phone"></i></abbr> +63 (49) 545 9201<br/>
-          <abbr title="Website"><i class="fa fa-globe"></i></abbr> <a href="http://cmdcph.com">cmdcph.com</a><br/>
-          <abbr title="Email"><i class="fa fa-envelope"></i></abbr> <a href="mailto:cmdc.ph@gmail.com">cmdc.ph@gmail.com</a><br/>
+          <abbr title="Address"><i class="fa fa-map-marker"></i></abbr> 352 Sitio Lote, Brgy. Lecheria, Calamba City, Laguna <br />Philippines 4027<br />
+          <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 9 AM to 6 PM<br />
+          <abbr title="Phone"><i class="fa fa-phone"></i></abbr> +63 (49) 545 9201<br />
+          <abbr title="Website"><i class="fa fa-globe"></i></abbr> <a href="http://cmdcph.com">cmdcph.com</a><br />
+          <abbr title="Email"><i class="fa fa-envelope"></i></abbr> <a href="mailto:cmdc.ph@gmail.com">cmdc.ph@gmail.com</a><br />
           <abbr title="facebook"><i class="facebook fa fa-facebook-square"></i></abbr> <a href="http://www.facebook.com/cmdcph" target="_blank">cmdcph</a>
         </address>
       </div>
