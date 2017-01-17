@@ -1,6 +1,8 @@
 ---
 title: Test
 date: 2017-01-17 08:22:00 Z
+categories:
+- post-cat
 ---
 
 test
