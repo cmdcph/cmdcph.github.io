@@ -8,7 +8,7 @@ layout: home
 </div>
 
 <div class="pure-g main-content">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
     <div class="pure-u-1 pure-u-md-1-3">
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -30,15 +30,21 @@ layout: home
 <hr>
 
 <div class="pure-g" id="courses" >
-  <div class="pure-u-1 pure-u-md-1-5">
-    <h2 style="font-weight:bold;color:#444;"> Courses </h2>
+  <div class="pure-u-1">
+    <h2 style="font-weight:bold;color:#444;"> Courses <br/>
+      <small>
+        <i class="fa fa-asterisk"></i>
+        Minimum number of students for maximum learning. <br/>
+        Student-Teacher Ratio 6:1
+      </small>
+    </h2>
   </div>
 </div>
 
 <div class="pure-g">
   {% assign sorted = (site.courses | sort: 'index') %}
   {% for course in sorted %}
-    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+    <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4">
 
       <h2 style="font-variant:small-caps;">
         <i class="fa fa-flag" aria-hidden="true" style="color:#C62828;"></i> {{ course.title | escape }}
@@ -54,7 +60,7 @@ layout: home
 <hr>
 
 <div class="pure-g" id="activities" >
-  <div class="pure-u-1 pure-u-md-1-5">
+  <div class="pure-u-1">
     <h2 style="font-weight:bold;color:#444;"> Our Activities </h2>
   </div>
 </div>
@@ -129,4 +135,85 @@ layout: home
       </div>
     </div>
   </div>
+</div>
+
+<hr>
+
+<div class="pure-g" id="calendar" >
+  <div class="pure-u-1">
+    <h2 style="font-weight:bold;color:#444;"> Calendar </h2>
+  </div>
+</div>
+
+<div class="pure-g">
+  {% assign sorted = (site.calendar_months | sort: 'index') %}
+  {% for month in sorted %}
+    <div class="pure-u-1-2 pure-u-sm-1-3 pure-u-md-1-6">
+
+      <h2 style="font-variant:small-caps;">
+        <i class="fa fa-calendar-check-o" aria-hidden="true" style="color:#ffc107;"></i> {{ month.title | escape }}
+      </h2>
+
+      <blockquote>
+        <ul style="list-style-type: none;text-align:center;font-size:90%">
+          {% for event in month.events %}
+            <li style="border-bottom:solid 1px;">
+              <span style="float:left;font-size:150%">{{ event.date }}</span>
+              <br/> {{ event.title }}
+            </li>
+          {% endfor %}
+        </ul>
+      </blockquote>
+    </div>
+  {% endfor %}
+</div>
+<hr>
+
+<div class="pure-g" id="fees" >
+  <div class="pure-u-1">
+    <h2 style="font-weight:bold;color:#444;"> School Fees <br/>
+      <small style="font-weight:normal;">
+        <i class="fa fa-asterisk"></i> We only accept payments in cash.
+      </small>
+    </h2>
+  </div>
+</div>
+
+{% assign sorted = (site.fees | sort: 'index') %}
+
+<div class="pure-g">
+  {% assign tuition = sorted[0] %}
+    <div class="pure-u-1">
+      <center style="padding:1em;">
+        <h2 style="font-variant:small-caps;">
+          <i class="fa fa-credit-card" aria-hidden="true" style="color:#ffc107;"></i> {{ tuition.title | escape }}
+        </h2>
+
+        {{tuition.content}}
+      </center>
+    </div>
+
+  {% assign book = sorted[1] %}
+  {% assign uniform = sorted[2] %}
+
+  <div class="pure-u-1 pure-u-md-1-2">
+    <h2 style="font-variant:small-caps;">
+      <i class="fa fa-book" aria-hidden="true" style="color:#ffc107;"></i> {{ book.title | escape }}
+    </h2>
+
+    <div style="padding:0em 1em;">
+      {{book.content}}
+    </div>
+  </div>
+
+  <div class="pure-u-1 pure-u-md-1-2">
+    <h2 style="font-variant:small-caps;">
+      <i class="fa fa-female" aria-hidden="true" style="color:#ffc107;"></i> {{ uniform.title | escape }}
+    </h2>
+
+    <div style="padding:0em 1em;">
+      {{uniform.content}}
+    </div>
+  </div>
+
 </div>

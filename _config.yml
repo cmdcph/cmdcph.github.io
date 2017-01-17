@@ -18,6 +18,12 @@ collections:
   courses:
     title: Courses
     output: false
+  fees:
+    title: fees
+    output: false
+  calendar_months:
+    title: calendar_months
+    output: false
   posts:
     title: Posts
     output: true
