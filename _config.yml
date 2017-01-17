@@ -24,6 +24,9 @@ collections:
   calendar_months:
     title: calendar_months
     output: false
+  teachers:
+    title: teachers
+    output: false
   posts:
     title: Posts
     output: true
