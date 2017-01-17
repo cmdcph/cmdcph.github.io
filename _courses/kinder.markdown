@@ -6,7 +6,7 @@ index: 4
 #### Requirements
 - Age: 5 to 6 yrs
 
-#### Activities
+#### Subjects
 - Math
 - Writing
 - Language
