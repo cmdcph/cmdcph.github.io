@@ -1,24 +1,32 @@
-# Site settings
+---
 title: Clever Minds Development Center
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: cmdc.ph@gmail.com
-description: Clever Minds Development Center - As the children begin to develop trust and confidence their development are influenced by the experiences they get from their environment hence they should be given consistent nurturance, sensory stimulation, and a good role model.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cmdcph.com" # the base hostname & protocol for your site
+description: Clever Minds Development Center - As the children begin to develop trust
+  and confidence their development are influenced by the experiences they get from
+  their environment hence they should be given consistent nurturance, sensory stimulation,
+  and a good role model.
+baseurl: ''
+url: http://cmdcph.com
 twitter_username: cmdcph
-facebook_username:  cmdcph
-
-# Build settings
+facebook_username: cmdcph
 markdown: kramdown
-
 exclude:
-  - "bower_components"
-  - "bower.json"
-  - "node_modules"
-  - "package.json"
-  - "Gruntfile.coffee"
-  - "Rakefile"
-  - "Gemfile"
-  - "Gemfile.lock"
+- bower_components
+- bower.json
+- node_modules
+- package.json
+- Gruntfile.coffee
+- Rakefile
+- Gemfile
+- Gemfile.lock
 include:
-  - .nojekyll
-  - CNAME
+- ".nojekyll"
+- CNAME
