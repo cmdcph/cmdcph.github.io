@@ -5,16 +5,6 @@
     <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/pure-min.css' }}" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="{{ '/assets/css/grids-responsive-old-ie-min.css' }}">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="{{ '/assets/css/grids-responsive-min.css' }}">
-    <!--<![endif]-->
   </head>
   <body>
     {{ content }}
@@ -52,6 +42,17 @@
         </center>
       </footer>
     </section>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/pure-min.css' }}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="{{ '/assets/css/grids-responsive-old-ie-min.css' }}">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="{{ '/assets/css/grids-responsive-min.css' }}">
+    <!--<![endif]-->
 
     {% if site.google_analytics %}
       <script type="text/javascript">
