@@ -241,7 +241,7 @@ layout: home
   <div class="pure-u-1 pure-u-md-1-2">
     <center style="padding:1em 0em;">
       <h2 style="color:white;font-weight:600;">Enroll Your Child Now!</h2>
-      <p>Call or visit us to reserve you child's slot. <br/>We provide fully-airconditioned classrooms with computer subjects and internet. Minimum number of students for maximum learning (6 students per teacher)<br/> Look for teacher Elsa or teacher Anna.</p>
+      <p>Call or visit us to reserve you child's slot. <br/>We provide fully-airconditioned classrooms with computer subjects and internet.<br/> Minimum number of students for maximum learning (6 students per teacher)<br/> Look for teacher Elsa or teacher Anna.</p>
       <address style="font-style:normal;">
         <abbr title="Address"><i class="fa fa-map-marker"></i></abbr> 352 Sitio Lote, Brgy. Lecheria, <br/> Calamba City, Laguna Philippines 4027<br/>
         <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 9 AM to 6 PM<br/>
