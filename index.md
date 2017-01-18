@@ -44,7 +44,7 @@ layout: home
 <div class="pure-g">
   {% assign sorted = (site.courses | sort: 'index') %}
   {% for course in sorted %}
-    <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4">
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 
       <h2 style="font-variant:small-caps;">
         <i class="fa fa-flag" aria-hidden="true" style="color:#C62828;"></i> {{ course.title | escape }}
@@ -148,7 +148,7 @@ layout: home
 <div class="pure-g">
   {% assign sorted = (site.calendar_months | sort: 'index') %}
   {% for month in sorted %}
-    <div class="pure-u-1-2 pure-u-sm-1-3 pure-u-md-1-6">
+    <div class="pure-u-1 pure-u-sm-1-3 pure-u-md-1-6">
 
       <h2 style="font-variant:small-caps;">
         <i class="fa fa-calendar-check-o" aria-hidden="true" style="color:#ffc107;"></i> {{ month.title | escape }}
