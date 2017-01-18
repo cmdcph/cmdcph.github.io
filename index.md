@@ -220,10 +220,42 @@ layout: home
 </div>
 
 <hr>
+<br>
+
+<div class="pure-g" id="enroll" style="background-color:#2196F3; color:white;">
+
+  <div class="pure-u-1 pure-u-md-1-2">
+    <div class="video-container no-controls">
+      <iframe frameborder="0"
+      marginheight="0" marginwidth="0" scrolling="no" class="pure-u-1"
+      src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Clever+Minds+Development+Center&amp;aq=&amp;sll=14.204087,121.161819&amp;sspn=0.011607,0.021136&amp;ie=UTF8&amp;hq=Clever+Minds+Development+Center&amp;hnear=&amp;t=m&amp;ll=14.209891,121.160231&amp;spn=0.012481,0.012875&amp;z=15&amp;iwloc=A&amp;output=embed" style="min-height:300px;">
+      </iframe>
+      <br />
+      <small>
+        <a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Clever+Minds+Development+Center&amp;aq=&amp;sll=14.204087,121.161819&amp;sspn=0.011607,0.021136&amp;ie=UTF8&amp;hq=Clever+Minds+Development+Center&amp;hnear=&amp;t=m&amp;ll=14.209891,121.160231&amp;spn=0.012481,0.012875&amp;z=15&amp;iwloc=A" style="color:white;">
+          View Larger Map
+        </a>
+      </small>
+    </div>
+  </div>
+  <div class="pure-u-1 pure-u-md-1-2">
+    <center style="padding:1em 0em;">
+      <h2 style="color:white;font-weight:600;">Enroll Your Child Now!</h2>
+      <p>Call or visit us to reserve you child's slot. <br/>We provide fully-airconditioned classrooms with computer subjects and internet. Minimum number of students for maximum learning (6 students per teacher)<br/> Look for teacher Elsa or teacher Anna.</p>
+      <address style="font-style:normal;">
+        <abbr title="Address"><i class="fa fa-map-marker"></i></abbr> 352 Sitio Lote, Brgy. Lecheria, <br/> Calamba City, Laguna Philippines 4027<br/>
+        <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 9 AM to 6 PM<br/>
+        <abbr title="Phone"><i class="fa fa-phone"></i></abbr> +63 (49) 545 9201<br/>
+      </address>
+    </center>
+  </div>
+</div>
+
+<br>
 
 <div class="pure-g" id="teachers" >
   <div class="pure-u-1">
-    <h2 style="font-weight:bold;color:#444;"> <i class="fa fa-users" style="color:#2196F3;"></i> Faculty </h2>
+    <center><h2 style="font-weight:bold;color:#2196F3;"> <i class="fa fa-users" style="color:#2196F3;"></i> Faculty </h2></center>
   </div>
 </div>
 
