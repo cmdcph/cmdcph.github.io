@@ -1,6 +1,6 @@
 ---
 title: Clever Minds Development Center
-timezone: UTC
+timezone: Asia/Singapore
 collections:
   courses:
     title: Courses
@@ -22,7 +22,7 @@ collections:
     output: false
 email: cmdc.ph@gmail.com
 description: We nurture and support your child's growth and development.
-baseurl: ''
+baseurl: 
 url: http://cleverminds.ph
 twitter_username: cmdcph
 github_username: cmdcph
