@@ -1,8 +1,9 @@
 ---
 title: Reminder of Incoming Activities
-date: 2017-01-10 16:35:20 +0800
+date: 2017-01-10 08:35:20 Z
 layout: post
 ---
+
 Incoming Activities:
 
 - Feb. 3 - Fieldtrip around Calamba

@@ -1,8 +1,9 @@
 ---
 title: Accepting Students for Summer Classes 2017
-date: 2017-01-17 16:35:20 +0800
+date: 2017-01-17 08:35:20 Z
 layout: post
 ---
+
 Let your kids’ summer be fun and full of learning!
 We are now accepting students for summer classes.
 

@@ -1,6 +1,6 @@
 ---
 title: See What's Happening Inside the Classroom
-date: 2016-06-09 16:35:20 +0800
+date: 2016-06-09 08:35:20 Z
 layout: post
 ---
 

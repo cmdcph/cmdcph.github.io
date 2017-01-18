@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+
 <div class="pure-g" id="announcements" >
   <div class="pure-u-1">
     <h2 style="font-weight:bold;color:#444;">Announcements</h2>
