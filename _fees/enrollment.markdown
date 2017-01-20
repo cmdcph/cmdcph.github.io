@@ -3,16 +3,31 @@ title: Enrollment Fees
 index: 1
 ---
 
-| Fees                    | Cash       | Monthly    |
+| Fees                    | Monthly    | Cash       |
 | ----------------------- |-----------:| ----------:|
-| Registration Fee        | Php  1 200 | Php 1 200  |
-| Tuition Fee             | Php 14 400 | Php 1 600 <br/>per month |
-| Miscellaneous Fee       | Php  5 000 | Php 5 000  |
-| Energy Fee              | Php  1 850 | Php   185 <br/>per month |
-| Computer Fee            | Php    600 | Php    60 <br/>per month |
-| Athletic Fee            | Php    400 | Php   400  |
-| Library Fee             | Php    500 | Php   500  |
-| Medical & Dental Fee    | Php    700 | Php   700  |
-| <b>Payment upon Enrollment</b> |<b>Php 24 650</b> | <b>Php 9 645</b>  |
-| Monthly Payment         |            | Php 1 845  |
+| Registration Fee        |      1 200 |     1 200  |
+| Tuition Fee             |      1 600 |     14 400 |
+| Miscellaneous Fee       |      5 600 |      5 600 |
+| Energy Fee              |        200 |      2 000 |
+| Computer Fee            |        100 |      1 000 |
+| Athletic Fee            |        400 |        400 |
+| Library Fee             |        500 |        500 |
+| Medical & Dental Fee    |        700 |        700 |
+| <b>TOTAL</b>            |<b>Php 10 300</b>|<b>Php 25 800</b>|
+
+
+### Monthly Basis
+|                              | Nursery    | Pre-Kinder | Kindergarten |
+| ---------------------------- |-----------:|-----------:|-------------:|
+| Payment Upon <br> Enrollment |     10 300 |     10 300 |       10 300 |
+| Books                        |      3 000 |      3 500 |        4 000 |
+| <b>TOTAL</b>                 | Php 13 300 | Php 13 800 |   Php 14 300 |
+
+
+### Cash Basis
+|                              | Nursery    | Pre-Kinder | Kindergarten |
+| ---------------------------- |-----------:|-----------:|-------------:|
+| Payment Upon <br> Enrollment |     25 800 |     25 800 |       25 800 |
+| Books                        |      3 000 |      3 500 |        4 000 |
+| <b>TOTAL</b>                 | Php 28 800 | Php 29 300 |   Php 29 800 |
 
