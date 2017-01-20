@@ -3,9 +3,9 @@ title: April
 year: 2017
 index: 4
 events:
-- date: 10-11
+- day: 10-11
   title: Final Exam
-- date: 25
+- day: 25
   title: Graduation
 ---
 

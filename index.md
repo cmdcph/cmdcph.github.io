@@ -159,7 +159,7 @@ layout: home
         <ul style="list-style-type: none;text-align:center;font-size:90%">
           {% for event in month.events %}
             <li style="border-bottom:solid 1px;">
-              <span style="float:left;font-size:150%">{{ event.date }}</span>
+              <span style="float:left;font-size:150%">{{ event.day }}</span>
               <br/> {{ event.title }}
             </li>
           {% endfor %}
