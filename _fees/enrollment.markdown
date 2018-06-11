@@ -15,6 +15,6 @@ index: 1
 | Medical & Dental Fee    |          700 |
 | **TOTAL**               |**Php 26 400**|
 
-* No computer fee for Toddler class.
+*No computer fee for Toddler class.
 
 
