@@ -142,7 +142,7 @@ layout: home
 
 <div class="pure-g" id="calendar" >
   <div class="pure-u-1">
-    <h2 style="font-weight:bold;color:#444;"> Calendar </h2>
+    <h2 style="font-weight:bold;color:#444;"> Calendar SY 2018-19</h2>
   </div>
 </div>
 
