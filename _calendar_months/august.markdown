@@ -1,11 +1,13 @@
 ---
 title: August
-year: 2017
-index: 8
+year: 2018
+index: 2
 events:
-- day: 8-11
-  title: 1st Monthly Exam
-- day: 19
-  title: Linggo ng Wika
+- day: 21
+  title: Ninoy Aquino Day
+- day: 22
+  title: Eid'l Adha
+- day: 27
+  title: National Heroes Day
 ---
 
