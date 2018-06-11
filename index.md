@@ -223,6 +223,29 @@ layout: home
 <hr>
 <br>
 
+<div class="pure-g" id="teachers" >
+  <div class="pure-u-1">
+    <center><h2 style="font-weight:bold;color:#2196F3;"> <i class="fa fa-users" style="color:#2196F3;"></i> Faculty </h2></center>
+  </div>
+</div>
+
+<div class="pure-g">
+  {% assign teachers = (site.teachers | first) %}
+  {% for staff in teachers.names %}
+    <div class="pure-u-1-2 pure-u-sm-1-3 pure-u-md-1-4">
+      <center>
+        <h2 style="font-variant:small-caps;">
+          <i class="fa fa-user-circle" aria-hidden="true" style="color:#2196F3;"></i> {{ staff.name | escape }}
+          <br/>
+          <small>{{ staff.position }}</small>
+        </h2>
+      </center>
+    </div>
+  {% endfor %}
+</div>
+
+<br>
+
 <div class="pure-g" id="enroll" style="background-color:#2196F3; color:white;">
 
   <div class="pure-u-1 pure-u-md-1-2">
@@ -252,25 +275,4 @@ layout: home
   </div>
 </div>
 
-<br>
 
-<div class="pure-g" id="teachers" >
-  <div class="pure-u-1">
-    <center><h2 style="font-weight:bold;color:#2196F3;"> <i class="fa fa-users" style="color:#2196F3;"></i> Faculty </h2></center>
-  </div>
-</div>
-
-<div class="pure-g">
-  {% assign teachers = (site.teachers | first) %}
-  {% for staff in teachers.names %}
-    <div class="pure-u-1-2 pure-u-sm-1-3 pure-u-md-1-4">
-      <center>
-        <h2 style="font-variant:small-caps;">
-          <i class="fa fa-user-circle" aria-hidden="true" style="color:#2196F3;"></i> {{ staff.name | escape }}
-          <br/>
-          <small>{{ staff.position }}</small>
-        </h2>
-      </center>
-    </div>
-  {% endfor %}
-</div>
