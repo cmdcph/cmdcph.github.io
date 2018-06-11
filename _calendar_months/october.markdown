@@ -1,12 +1,10 @@
 ---
 title: October
 position: 3
-year: 2017
-index: 10
+year: 2018
+index: 4
 events:
-- day: 21
-  title: U.N. Day
-- day: 27-Nov. 5
-  title: 'Semestral Break '
+- day: 5
+  title: World Teachers' Day
 ---
 
