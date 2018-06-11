@@ -3,7 +3,7 @@ title: Welcoming Toddlers this SY 2018-19
 date: 2018-06-12 02:43:00 +08:00
 ---
 
-Great news! For children ages 2 to 2½ yrs, we are opening our ** Toddler Class **. Hurry! We will only accommodate ** 3 ** toddlers this coming school year.
+Great news! For children ages 2 to 2½ yrs, we are opening our __Toddler Class__. Hurry! We will only accommodate __3__ toddlers this coming school year.
 
 
 Toddler class activities:
@@ -18,4 +18,4 @@ Toddler class activities:
 * Dramatic Play
 
 
-For inquiries, kindly call us at 63 49 545-9201 and look for teacher Elsa or Anna.
+For inquiries, kindly call us at +63 (49) 545 9201 and look for teacher Elsa or Anna.
