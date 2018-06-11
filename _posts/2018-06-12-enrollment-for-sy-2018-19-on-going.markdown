@@ -9,10 +9,10 @@ We are still accepting students for SY 2017-18. Enrollment for SY 2018-19 is unt
 
 Courses offered this coming school year:
 
-* Toddler
-* Nursery
-* Pre-Kindergarten
-* Kindergarten 
+* Toddler 2 to 2½ 
+* Nursery 3 to 3½ 
+* Pre-Kindergarten 4 to 4½ 
+* Kindergarten 5 to 6
 
 
 __Give your child an affordable and high-quality education. Enroll now!__
