@@ -3,8 +3,7 @@ title: Toddler
 index: 1
 ---
 
-#### Requirements
-- Age: 2 to 2½ yrs
+#### 2 to 2½ yrs
 
 #### Activities
 - Language Activities
