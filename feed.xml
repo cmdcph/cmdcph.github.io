@@ -3,8 +3,8 @@
   <channel>
     <title>Clever Minds Development Center</title>
     <description>Clever Minds Development Center - As the children begin to develop trust and confidence their development are influenced by the experiences they get from their environment hence they should be given consistent nurturance, sensory stimulation, and a good role model.</description>
-    <link>http://cmdcph.com/</link>
-    <atom:link href="http://cmdcph.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://cleverminds.ph/</link>
+    <atom:link href="https://cleverminds.ph/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Wed, 19 Aug 2015 18:12:02 +0800</pubDate>
     <lastBuildDate>Wed, 19 Aug 2015 18:12:02 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
