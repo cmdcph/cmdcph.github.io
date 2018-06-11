@@ -1,6 +1,6 @@
 ---
 title: November
-position: 6
+position: 4
 year: 2017
 index: 11
 events:
