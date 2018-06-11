@@ -3,7 +3,7 @@ title: Enrollment for SY 2018-19 On-going
 date: 2018-06-12 02:50:00 +08:00
 ---
 
-We are still accepting students for SY 2017-18. 
+We are still accepting students for SY 2017-18. Enrollment for SY 2018-19 is until July 6, 2018.
 
 ### Limited slots only!
 
