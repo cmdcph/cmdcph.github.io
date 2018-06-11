@@ -25,4 +25,4 @@ Monday - Friday, 9 AM to 6 PM
 
 Call us +63 (49) 545 9201
 
-[Fees](http://cleverminds.ph/#fees) / [School Calendar](http://cleverminds.ph/#calendar)
+[Enrollment Fees](http://cleverminds.ph/#fees) / [School Calendar](http://cleverminds.ph/#calendar)
