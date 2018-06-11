@@ -185,36 +185,36 @@ layout: home
 
 <div class="pure-g">
   {% assign tuition = sorted[0] %}
-    <div class="pure-u-1">
+    <div class="pure-u-1 pure-u-md-1-3">
       <center style="padding:1em;">
         <h2 style="font-variant:small-caps;">
           <i class="fa fa-credit-card" aria-hidden="true" style="color:#ffc107;"></i> {{ tuition.title | escape }}
         </h2>
 
-        {{tuition.content}}
+        {{ tuition.content }}
       </center>
     </div>
 
   {% assign book = sorted[1] %}
   {% assign uniform = sorted[2] %}
 
-  <div class="pure-u-1 pure-u-md-1-2">
+  <div class="pure-u-1 pure-u-md-1-3">
     <h2 style="font-variant:small-caps;">
       <i class="fa fa-book" aria-hidden="true" style="color:#ffc107;"></i> {{ book.title | escape }}
     </h2>
 
     <div style="padding:0em 1em;">
-      {{book.content}}
+      {{ book.content }}
     </div>
   </div>
 
-  <div class="pure-u-1 pure-u-md-1-2">
+  <div class="pure-u-1 pure-u-md-1-3">
     <h2 style="font-variant:small-caps;">
       <i class="fa fa-female" aria-hidden="true" style="color:#ffc107;"></i> {{ uniform.title | escape }}
     </h2>
 
     <div style="padding:0em 1em;">
-      {{uniform.content}}
+      {{ uniform.content }}
     </div>
   </div>
 
