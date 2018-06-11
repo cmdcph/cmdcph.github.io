@@ -1,6 +1,6 @@
 ---
 title: January
-position: 9
+position: 8
 year: 2019
 index: 7
 events:
