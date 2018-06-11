@@ -1,11 +1,9 @@
 ---
 title: January
-year: 2017
-index: 1
+year: 2019
+index: 7
 events:
-- day: 8
-  title: Resumption of Classes
-- day: 29-Feb. 1
-  title: Third Periodical Exam
+- day: 1
+  title: New Year
 ---
 
