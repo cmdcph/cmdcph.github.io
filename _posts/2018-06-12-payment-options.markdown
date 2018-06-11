@@ -17,4 +17,6 @@ __Option#3:__ Upon enrollment, pay PHP 5,320 only + [Books](http://cleverminds.p
 __Pay only PHP 2,520 monthly__
 
 
-So, what are you waiting for? Secure your child's slot now! Enrollment for SY 2018-19 is until __July 6, 2018__.
+So, what are you waiting for? Secure your child's slot now! 
+
+### Enrollment for SY 2018-19 is until __July 6, 2018__.
