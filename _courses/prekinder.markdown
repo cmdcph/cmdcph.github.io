@@ -1,5 +1,6 @@
 ---
 title: Pre-Kindergarten
+position: 2
 index: 3
 ---
 

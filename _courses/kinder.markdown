@@ -1,5 +1,6 @@
 ---
 title: Kindergarten
+position: 3
 index: 4
 ---
 
