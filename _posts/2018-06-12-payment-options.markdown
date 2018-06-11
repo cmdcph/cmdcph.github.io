@@ -12,13 +12,12 @@ Pay PHP 26,400 only + [Books](http://cleverminds.ph/#fees)
 ### Option#2
 Upon enrollment, pay PHP 10,360 only + [Books](http://cleverminds.ph/#fees)
 
-**Pay only PHP 1,960 monthly
-**
+*Pay only PHP 1,960 monthly
 
 ### Option#3 
 Upon enrollment, pay PHP 5,320 only + [Books](http://cleverminds.ph/#fees)
 
-**Pay only PHP 2,520 monthly
-**
+*Pay only PHP 2,520 monthly
 
-[School Fees](http://cleverminds.ph/#fees)
+
+So, what are you waiting for? Secure your child's slot now! Enrollment for SY 2018-19 is until July 6, 2018.
