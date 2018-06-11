@@ -1,12 +1,14 @@
 ---
 title: November
 position: 4
-year: 2017
-index: 11
+year: 2018
+index: 5
 events:
-- day: 6
-  title: Resumption of Classes
-- day: 21-24
-  title: Second Periodic Exam
+- day: 1
+  title: All Saints Day
+- day: 2
+  title: All Souls Day
+- day: 30
+  title: Bonifacio Day
 ---
 
