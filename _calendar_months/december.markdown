@@ -1,16 +1,10 @@
 ---
 title: December
 position: 5
-year: 2017
-index: 12
+year: 2018
+index: 6
 events:
-- day: 2
-  title: Distribution of Report Cards
-- day: 8
-  title: Fieldtrip
-- day: 18-20
-  title: Third Monthly Exam
-- day: 20-Jan. 7
-  title: Christmas Vacation
+- day: 30
+  title: Rizal Day
 ---
 
