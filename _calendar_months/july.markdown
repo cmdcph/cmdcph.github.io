@@ -1,5 +1,6 @@
 ---
 title: July
+position: 0
 year: 2018
 index: 1
 events:

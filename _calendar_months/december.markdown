@@ -1,5 +1,6 @@
 ---
 title: December
+position: 7
 year: 2017
 index: 12
 events:

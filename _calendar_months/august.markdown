@@ -1,5 +1,6 @@
 ---
 title: August
+position: 1
 year: 2018
 index: 2
 events:
