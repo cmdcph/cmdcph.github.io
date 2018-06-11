@@ -3,7 +3,7 @@ title: Uniform
 index: 3
 ---
 
-|                | S / M   | L / XL  |
-| -------------- | -------:| -------:|
-| School Uniform | Php 550 | Php 600 |
-| P.E. Uniform   | Php 500 | Php 550 |
+|              | School | P.E. |
+| ------------ | ------:| ----:|
+| Small-Medium |    550 |  600 |
+| Large-XL     |    500 |  550 |
