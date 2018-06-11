@@ -2,7 +2,10 @@
 layout: default
 ---
 
-{% include home-banner.html %}
+<div style="background-image: url({{ "images/bg.png" | prepend: site.baseurl }});
+    background-size: cover;">
+  {% include home-banner.html %}
+</div>
 
 <nav class="pure-g" style="background-color:#95d14d;">
   <div class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-6" style="padding:1em 0em; background-color:#C62828;">

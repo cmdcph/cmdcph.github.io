@@ -1,8 +1,12 @@
 <section class="page-header">
-  <a id="logo-container" href="/" class="brand-logo">
-    <img src="{{ "/images/logo2.png" | prepend: site.baseurl }}" alt="cmdc logo" class="img-responsive img-circle" height="150"/>
-  </a>
-  <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+ 
+   <h1 class="project-name" style="font-weight:900;">
+     <a id="logo-container" href="/" class="brand-logo">
+      <img src="{{ "images/logo2.png" | prepend: site.baseurl }}" alt="cmdc logo" class="img-responsive img-circle" height="80"/>
+      {{ site.title | default: site.github.repository_name }}
+    </a>
+  </h1>
+ 
   <h2 style="color:#444;">
     {{ site.description | default: site.github.project_tagline }} </h2>
   <!-- <h3 class="project-tagline">
