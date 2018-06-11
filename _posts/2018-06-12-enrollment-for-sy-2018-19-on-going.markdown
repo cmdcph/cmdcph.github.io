@@ -17,13 +17,12 @@ Courses offered this coming school year:
 
 __Give your child an affordable and high-quality education. Enroll now!__
 
-Visit us:
-352 Sitio Lote, Brgy. Lecheria,
- 
-Calamba City, Laguna Philippines 4027
+Visit us at 352 Sitio Lote, Brgy. Lecheria, Calamba City, Laguna Philippines 4027
+
 
 Monday - Friday, 9 AM to 6 PM
 
-+63 (49) 545 9201
+
+Call us +63 (49) 545 9201
 
 [Fees](http://cleverminds.ph/#fees) / [School Calendar](http://cleverminds.ph/#calendar)
