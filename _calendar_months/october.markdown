@@ -1,6 +1,6 @@
 ---
 title: October
-position: 5
+position: 3
 year: 2017
 index: 10
 events:
