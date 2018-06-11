@@ -1,11 +1,9 @@
 ---
 title: July
-year: 2017
-index: 7
+year: 2018
+index: 1
 events:
-- day: 3
-  title: Parents Orientation
-- day: 4
-  title: Start of Classes
+- day: 9
+  title: First Day of Classes
 ---
 
