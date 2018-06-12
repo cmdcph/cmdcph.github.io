@@ -8,6 +8,10 @@ events:
   title: All Saints Day
 - day: 2
   title: All Souls Day
+- day: 4
+  title: Last Day of Semestral Break
+- day: 5
+  title: Resumption of Classes
 - day: 30
   title: Bonifacio Day
 ---
