@@ -12,5 +12,9 @@ events:
   title: 1st Periodic Exam
 - day: 14
   title: 1st Periodic Exam
+- day: 22
+  title: General Meeting
+- day: 22
+  title: Distribution of Report Card
 ---
 
