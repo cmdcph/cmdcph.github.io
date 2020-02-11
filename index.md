@@ -120,37 +120,6 @@ layout: home
 
 <hr>
 
-<div class="pure-g" id="calendar" style="background: #ffeb3b; margin-bottom: 1em;">
-  <div class="pure-u-1">
-    <h1 style="font-weight:bold;color:#444;text-align: center;margin: 1em 0em;"> Calendar SY 2018-19</h1>
-  </div>
-</div>
-
-<div class="pure-g" style="padding:0 0.5em;">
-  {% assign sorted = (site.calendar_months | sort: 'index') %}
-  {% for month in sorted %}
-    <div class="pure-u-1 pure-u-sm-1-3 pure-u-md-1-4" style="border-bottom:solid #eee 2px; padding-top:1em;">
-
-      <h2 style="font-variant:small-caps;">
-        <i class="fa fa-calendar-check-o" aria-hidden="true" style="color:#ffc107;"></i> {{ month.title | escape }}
-      </h2>
-
-      <blockquote>
-        <ul style="list-style-type: none;text-align:center;font-size:90%">
-          {% for event in month.events %}
-            <li style="border-bottom:solid 1px;">
-              <span style="float:left;font-size:150%">{{ event.day }}</span>
-              <br/> {{ event.title }}
-            </li>
-          {% endfor %}
-        </ul>
-      </blockquote>
-    </div>
-  {% endfor %}
-</div>
-
-<hr>
-
 <div class="pure-g" id="announcements" >
   <div class="pure-u-1">
     <h1 style="font-weight:bold;color:#444;text-align: center;margin: 1em 0em;">Announcements</h1>
