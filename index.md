@@ -271,8 +271,8 @@ layout: home
       <p>Call or visit us to reserve your child's slot. <br/>We provide fully-airconditioned classrooms with computer subjects and internet.<br/> Minimum number of students for maximum learning (6 students per teacher)<br/> Look for teacher Elsa or teacher Anna.</p>
       <address style="font-style:normal;">
         <abbr title="Address"><i class="fa fa-map-marker"></i></abbr> 352 Sitio Lote, Brgy. Lecheria, <br/> Calamba City, Laguna Philippines 4027<br/>
-        <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 9 AM to 6 PM<br/>
-        <abbr title="Phone"><i class="fa fa-phone"></i></abbr> +63 (49) 545 9201<br/>
+        <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 8 AM to 6 PM<br/>
+        <abbr title="Phone"><i class="fa fa-phone"></i></abbr> +63 908 525 9178<br/>
       </address>
     </center>
   </div>
