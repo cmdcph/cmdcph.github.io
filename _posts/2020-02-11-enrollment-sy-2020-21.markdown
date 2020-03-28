@@ -1,6 +1,7 @@
 ---
 title: Enrollment SY 2020-21
 date: 2020-02-11 23:30:00 +08:00
+layout: post
 ---
 
 We are now accepting students for SY 2020-21. Enrollment for SY 2020-21 is open until __June 6, 2020__.
