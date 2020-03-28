@@ -2,6 +2,7 @@
 title: Toddler
 position: 0
 index: 1
+age: 2 to 2½ yrs
 ---
 
 #### 2 to 2½ yrs
