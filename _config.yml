@@ -20,15 +20,25 @@ collections:
   teachers:
     title: teachers
     output: false
-email: cmdc.ph@gmail.com
 description: We nurture and support your child's growth and development.
-baseurl: 
-url: http://cleverminds.ph
+services: Summer Classes & Tutorial Services
+email: cmdc.ph@gmail.com
+phone: +63-908-525-9178
+address_line_1: 352 Sitio Lote, Brgy. Lecheria
+address_line_2: Calamba City, Laguna
+address_line_3: Philippines 4027
+business_hours: Monday - Friday, 8 AM to 6 PM
+baseurl:
+domain: cleverminds.ph
+url: https://cleverminds.ph
+credits: https://erikathea.com
+facebook: https://www.facebook.com/cmdcph
+social_media: cmdcph
 twitter_username: cmdcph
 github_username: cmdcph
 permalink: none
 markdown: kramdown
-theme: minima
+
 gems:
 - jekyll-feed
 exclude:
