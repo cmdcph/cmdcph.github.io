@@ -1,52 +1,17 @@
 ---
 layout: default
 ---
-
-<div style="background-image: url({{ "images/bg.png" | prepend: site.baseurl }});
-    background-size: cover;">
-  {% include home-banner.html %}
-</div>
-
-<nav class="pure-g" style="background-color:#95d14d;">
-  <div class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-6" style="padding:1em 0em; background-color:#C62828;">
-    <center> <h3>
-      <a href="#announcements" style="color:white;">
-        Announcements
-      </a>
-    </h3> </center>
-  </div>
-  <section class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-6" style="padding:1em 0em; background-color:#CDDC39;">
-    <center> <h3>
-      <a href="#fees" style="color:white;">
-        School Fees
-      </a>
-    </h3> </center>
-  </section>
-  <section class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-6" style="padding:1em 0em;">
-    <center> <h3>
-      <a href="https://www.facebook.com/media/set/?set=a.375907325772350.102184.271198439576573&type=1&l=cfbfff1952" target="_blank" style="color:white;">
-        Facilities
-      </a>
-    </h3> </center>
-  </section>
-  <section class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-6" style="padding:1em 0em; background-color:#00A9F4;">
-    <center> <h3>
-      <a href="#teachers" style="color:white;">
-        Faculty
-      </a>
-    </h3> </center>
-  </section>
-  <section class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-6" style="padding:1em 0em; background-color:#3F51B5;">
-    <center> <a href="https://www.facebook.com/cmdcph/" target="_blank">
-      <h3 style="color:white;">Follow Us on
-      <i class="facebook fa fa-facebook-square"></i></h3>
-    </a> </center>
-  </section>
-</nav>
-
-<section class="home-content" style="padding:1em 2em;" id="courses">
+{% include navigation.html %}
+<style>
+  .home-content { font-size: min(max(14px, 4vw), 24px); }
+  .home-content::before{
+    content: " ";
+    height: 5vh;
+    display: inline-block;
+  }
+</style>
+<section class="home-content">
   {{ content }}
 </section>
 
-
-
+{% include footer.html %}

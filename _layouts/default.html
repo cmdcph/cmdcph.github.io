@@ -1,69 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title | default: site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <title>{% if page.title %}{{ page.title | escape }} - {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    {% include head-meta.html %}
 
-      ga('create', 'UA-91761254-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
+    <link rel="stylesheet" href="{{ '/assets/css/normalize.css' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/remedy.css' }}">
   </head>
   <body>
-    {{ content }}
-    <section style="background:#fdef3c;">
-      <footer style="padding: 1.5em">
-          <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-3">
-              <h3> <a href="https://cleverminds.ph"> Clever Minds Development Center </a> <br/>
-                <small style="font-weight:normal; color: #666;"><!-- We nurture and support your child's growth and development. <br/> -->
-                  Courses: Toddlers, Nursery, Pre-Kindergarten, Kindergarten <br/>
-                  Summer Classes & Tutorial Services <!-- <br/>
-                  Minimum number of students for maximum learning. Student-Teacher Ratio 6:1 -->
-                </small>
-              </h3>
-            </div>
+    <div class="content pure-g">
+      <section class="panel pure-u-xl-3-24"></section>
+      <section class="content pure-u-1 pure-u-xl-18-24">
+        {{ content }}
+      </section>
+      <section class="panel pure-u-xl-3-24"></section>
+    </div>
 
-            <div class="pure-u-1 pure-u-md-1-3" id="#contact">
-              <address style="font-style:normal;">
-                <abbr title="Address"><i class="fa fa-map-marker"></i></abbr> 352 Sitio Lote, Brgy. Lecheria, <br/> Calamba City, Laguna Philippines 4027<br/>
-                <abbr title="Business Hours"><i class="fa fa-clock-o"></i></abbr> Monday - Friday, 8 AM to 6 PM<br/>
-                <abbr title="Phone"><i class="fa fa-phone"></i></abbr> +63 908 525 9178
-              </address>
-            </div>
+     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/pure-min.css' }}">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
 
-            <div class="pure-u-1 pure-u-md-1-3" id="#links">
-              <section style="font-style:normal;">
-                <abbr title="Website"><i class="fa fa-globe"></i></abbr> <a href="http://cleverminds.ph">cleverminds.ph</a><br/>
-                <abbr title="Email"><i class="fa fa-envelope"></i></abbr> <a href="mailto:cmdc.ph@gmail.com">cmdc.ph@gmail.com</a><br/>
-                <abbr title="facebook"><i class="facebook fa fa-facebook-square"></i></abbr> <a href="http://www.facebook.com/cmdcph" target="_blank">cmdcph</a>
-              </section>
-            </div>
-          </div>
-
-          <center class="pure-g" style="border-top:1px solid white;">
-            <small class="pure-u-1" style="padding-top: 0.5em;">
-              Clever Minds Development Center &copy; <a href="https://erikathea.com" style="color:#666;">erikathea.com 2020</a>
-            </small>
-            <small class="rss-subscribe pure-u-1">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></small>
-
-        </center>
-      </footer>
-    </section>
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/pure-min.css' }}" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="{{ '/assets/css/grids-responsive-old-ie-min.css' }}">
     <![endif]-->
@@ -71,40 +29,8 @@
         <link rel="stylesheet" href="{{ '/assets/css/grids-responsive-min.css' }}">
     <!--<![endif]-->
 
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-        var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
-      pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' }}">
+    {% include footer-meta.html %}
 
-    <!-- Facebook SDK - Messenger -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml      : true,
-          version    : 'v6.0'
-        });
-      };
-
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your customer chat code -->
-    <div class="fb-customerchat"
-      attribution=setup_tool
-      page_id="271198439576573"
-      theme_color="#0084ff">
-    </div>
   </body>
 </html>

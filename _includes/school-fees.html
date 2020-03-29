@@ -1,0 +1,40 @@
+<style type="text/css">
+  #fees div h2 {
+    background-color: #ffc400;
+    border-radius: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+  }
+  #fees h2 i { color: #fff; margin-left: 0.5em; }
+</style>
+<div class="pure-g" id="fees">
+  {% assign sorted = (site.fees | sort: 'index') %}
+  {% assign tuition = sorted[0] %}
+    <div class="pure-u-1 pure-u-md-1-2">
+      <h2> <i class="fa fa-credit-card" aria-hidden="true"></i> {{ tuition.title | escape }}
+      </h2>
+
+      <div>
+        {{ tuition.content }}
+      </div>
+    </div>
+
+  <div class="pure-u-1 pure-u-md-1-2">
+    {% assign book = sorted[1] %}
+    <h2> <i class="fa fa-book" aria-hidden="true"></i> {{ book.title | escape }}
+    </h2>
+
+    <div>
+      {{ book.content }}
+    </div>
+    
+    <br/>
+    {% assign uniform = sorted[2] %}
+    <h2 class="h2"> <i class="fab fa-shirtsinbulk" aria-hidden="true"></i> {{ uniform.title | escape }}
+    </h2>
+
+    <div>
+      {{ uniform.content }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+html, p, a, small, li, abbr, address, td { 
+  font-family: 'Raleway', sans-serif !important;
+  color: #333 !important;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote, th {
+  font-family: 'Work Sans', sans-serif !important;
+  font-weight: 600 !important;
+  color: #111 !important;
+}
+
+a {
+  text-decoration: dotted;
+  text-decoration-line: underline;
+}
+
+nav { font-size: min(max(14px, 4vw), 24px); }
+nav a { text-decoration: none; }
+
+body {
+  background: rgb(255,241,241);
+  background: -moz-linear-gradient(90deg, rgba(255,241,241,1) 0%, rgba(255,253,245,1) 50%, rgba(245,248,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(255,241,241,1) 0%, rgba(255,253,245,1) 50%, rgba(245,248,255,1) 100%);
+  background: linear-gradient(90deg, rgba(255,241,241,1) 0%, rgba(255,253,245,1) 50%, rgba(245,248,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff1f1",endColorstr="#f5f8ff",GradientType=1);
+}
+
+address {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+blockquote {
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  word-spacing: 0.10em;
+  font-size: 120%;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+blockquote i { margin: 0.5em; }
+#vision blockquote {
+  border-block-start: 1px solid #666;
+  border-block-end: 1px solid #666;
+  margin-block-start: 4em;
+  margin-block-end: 4em;
+  padding: 2em 0.75em;
+}
+
+table {
+  width: -webkit-fill-available;
+}
+
+tbody tr {
+  line-height: 2em;
+  border-bottom: 1px solid #ccc;
+}
+
+ul { line-height: 1.5; }
+.fa-ul { margin-left: 2em; }
+
+.pure-g div {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.pure-button { border-radius: 2em; }

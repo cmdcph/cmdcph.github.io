@@ -20,6 +20,9 @@ collections:
   teachers:
     title: teachers
     output: false
+  activities:
+    title: activities
+    output: false
 description: We nurture and support your child's growth and development.
 services: Summer Classes & Tutorial Services
 email: cmdc.ph@gmail.com
@@ -31,7 +34,8 @@ business_hours: Monday - Friday, 8 AM to 6 PM
 baseurl:
 domain: cleverminds.ph
 url: https://cleverminds.ph
-credits: https://erikathea.com
+credits: erikathea
+credits_url: https://erikathea.com
 facebook: https://www.facebook.com/cmdcph
 social_media: cmdcph
 twitter_username: cmdcph
