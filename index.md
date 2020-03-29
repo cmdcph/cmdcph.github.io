@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+
 <div>
   {% include activities.html %}
   {% include courses.html %}
