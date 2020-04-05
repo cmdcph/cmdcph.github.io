@@ -14,5 +14,7 @@ subjects_v2:
 - v: Science
 - v: Computer
 icon: fas fa-robot
+li_icon: fas fa-bolt
+li_color: FFC400
 ---
 

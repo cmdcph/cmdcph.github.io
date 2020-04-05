@@ -14,5 +14,7 @@ subjects_v2:
 - v: Science Activities
 - v: Dramatic Play
 icon: fas fa-baby
+li_icon: fas fa-shapes
+li_color: FFC400
 ---
 

@@ -10,6 +10,8 @@ subjects_v1:
 subjects_v2:
 - v: English
 - v: Filipino
-icon: fas fa-shapes
+icon: fas fa-bug
+li_icon: fas fa-cookie-bite
+li_color: FFC400
 ---
 

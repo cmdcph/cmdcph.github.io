@@ -4,7 +4,15 @@
     height: 10vh;
     display: inline-block;
   }
-  #courses h1 i { color: #c10000; }
+  #courses h1 {
+    background: #0D3088;
+    padding-bottom: 10px;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 25%;
+    background-position: 50% 50%;
+    text-align: center;
+    color: #FFC400 !important;
+  }
   #courses span i { color: #666; }
   #courses h3 { margin-block-start: 0em; }
 </style>
@@ -15,27 +23,27 @@
   <hr/>
   {% assign courses = (site.courses | sort: 'index') %}
   {% for course in courses %}
-    <section class="pure-u-1 pure-u-md-1-3 pure-u-lg-2-4 pure-u-xl-9-24" id="{{ course.title | downcase }}">
+    <section class="pure-u-1 pure-u-lg-2-4 pure-u-xl-9-24" id="{{ course.title | downcase }}">
       <h1><i class="fa-xs {{ course.icon }}" aria-hidden="true"></i> {{ course.title | escape }}</h1>
       <h3>for {{ course.age }} old</h3>
     </section>
 
-    <section class="subject pure-u-1-2 pure-u-md-1-3 pure-u-lg-1-4 pure-u-xl-6-24">
+    <section class="subject pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4 pure-u-xl-6-24">
       <ul class="fa-ul">
         {% for subject in course.subjects_v1 %}
           <li>
-            <span class="fa-li"><i class="fas fa-cookie-bite fa-xs" aria-hidden="true"></i></span>
+            <span class="fa-li"><i class="{{ course.li_icon }} fa-xs" aria-hidden="true" style="color: #{{ course.li_color }};"></i></span>
             {{ subject.v }}
           </li>
         {% endfor %}
       </ul>
     </section>
 
-    <section class="subject pure-u-1-2 pure-u-md-1-3 pure-u-lg-1-4 pure-u-xl-6-24">
+    <section class="subject pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4 pure-u-xl-6-24">
       <ul class="fa-ul">
         {% for subject in course.subjects_v2 %}
           <li>
-            <span class="fa-li"><i class="fas fa-cookie-bite fa-xs" aria-hidden="true"></i></span>
+            <span class="fa-li"><i class="{{ course.li_icon }} fa-xs" aria-hidden="true" style="color: #{{ course.li_color }};"></i></span>
             {{ subject.v }}
           </li>
         {% endfor %}

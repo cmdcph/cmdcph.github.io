@@ -14,5 +14,7 @@ subjects_v2:
 - v: Science
 - v: Computer
 icon: fas fa-user-astronaut
+li_icon: fas fa-rocket
+li_color: FFC400
 ---
 
