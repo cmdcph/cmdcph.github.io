@@ -23,12 +23,12 @@
   <hr/>
   {% assign courses = (site.courses | sort: 'index') %}
   {% for course in courses %}
-    <section class="pure-u-1 pure-u-lg-2-4 pure-u-xl-9-24" id="{{ course.title | downcase }}">
+    <section class="pure-u-1 pure-u-lg-9-24" id="{{ course.title | downcase }}">
       <h1><i class="fa-xs {{ course.icon }}" aria-hidden="true"></i> {{ course.title | escape }}</h1>
       <h3>for {{ course.age }} old</h3>
     </section>
 
-    <section class="subject pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4 pure-u-xl-6-24">
+    <section class="subject pure-u-1-2 pure-u-md-1-2 pure-u-lg-6-24">
       <ul class="fa-ul">
         {% for subject in course.subjects_v1 %}
           <li>
@@ -39,7 +39,7 @@
       </ul>
     </section>
 
-    <section class="subject pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4 pure-u-xl-6-24">
+    <section class="subject pure-u-1-2 pure-u-md-1-2 pure-u-lg-6-24">
       <ul class="fa-ul">
         {% for subject in course.subjects_v2 %}
           <li>
