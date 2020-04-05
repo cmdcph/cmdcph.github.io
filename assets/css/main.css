@@ -118,3 +118,15 @@ ul { line-height: 1.5; }
   .pure-visible-lg{display:none}
   .pure-hidden-xl{display:none}
 }
+
+#contact {
+  background-color: #0D3088;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  padding-bottom: 0.5em;
+}
+
+#contact h1, #contact p, #contact a, #contact small, #contact li, #contact abbr, #contact address { 
+  color: #FFF !important;
+  text-align: center;
+}
