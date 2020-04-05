@@ -9,10 +9,10 @@ list:
   color: C10000
 - heading: Sports Fest
   icon: fa fa-soccer-ball-o
-  color: 000000
+  color: 0
 - heading: NutriCamp
   icon: fa fa-cutlery
-  color: 008000
+  color: '008000'
 - heading: Medical & Dental Checkup
   icon: fa fa-medkit
   color: C10000
