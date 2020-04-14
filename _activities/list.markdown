@@ -9,7 +9,7 @@ list:
   color: C10000
 - heading: Sports Fest
   icon: fa fa-soccer-ball-o
-  color: 0
+  color: '000'
 - heading: NutriCamp
   icon: fa fa-cutlery
   color: '008000'
