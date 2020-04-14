@@ -3,17 +3,7 @@ layout: default
 ---
 
 {% include navigation.html %}
-<style type="text/css">
-  .home-content {
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    font-size: min(max(14px, 4vw), 26px);
-  }
-  .home-content::before{
-    content: " ";
-    height: 5vh;
-    display: inline-block;
-  }
-</style>
+
 <section class="home-content">
   {{ content }}
 </section>
