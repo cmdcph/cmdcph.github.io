@@ -1,31 +1,3 @@
-<style type="text/css">
-  #logo {
-    max-height: 30vh;
-    padding: 0em 1em; margin: auto;
-  }
-  @keyframes blinking {
-    0%    { opacity: 1.00; }
-    25%   { opacity: 0.75; }
-    50%   { opacity: 0.50; }
-    75%   { opacity: 0.25; }
-    100%  { opacity: 0.00; }
-  }
-  @keyframes rotating {
-    from { transform: rotateZ(0deg); }
-    to { transform: rotateZ(360deg); }
-  }
-  #blue-top, #yellow-left, #yellow-right {
-    animation: blinking 10s linear 2s infinite alternate;
-  }
-  #yellow-left { animation-delay: 3s; }
-  #yellow-right { animation-delay: 4s; }
-  #children {
-    animation: rotating 20s linear infinite;
-    transform-origin: center;
-    transform-box: fill-box;
-  }
-</style>
-
 <svg class="pure-img" id="cmdc-logo" viewBox="0 0 508 399" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" height="200">
   <g id="logo">
     <g id="yellow-left" filter="url(#filter0_d)">

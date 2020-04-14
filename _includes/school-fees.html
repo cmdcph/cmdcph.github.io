@@ -1,12 +1,3 @@
-<style type="text/css">
-  #fees div h2 {
-    background-color: #ffc400;
-    border-radius: 1em;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-  }
-  #fees h2 i { color: #fff; margin-left: 0.5em; }
-</style>
 <div class="pure-g" id="fees">
   {% assign sorted = (site.fees | sort: 'index') %}
   {% assign tuition = sorted[0] %}
