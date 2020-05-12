@@ -42,7 +42,7 @@ twitter_username: cmdcph
 github_username: cmdcph
 permalink: none
 markdown: kramdown
-gems:
+plugins:
 - jekyll-feed
 exclude:
 - Gemfile
