@@ -1,7 +1,12 @@
+---
+---
+
 html, p, a, small, li, abbr, address, td { 
   font-family: 'Raleway', sans-serif !important;
   color: #333 !important;
 }
+
+html { scroll-behavior: smooth; }
 
 h1, h2, h3, h4, h5, h6, blockquote, th {
   font-family: 'Work Sans', sans-serif !important;
@@ -130,3 +135,24 @@ ul { line-height: 1.5; }
   color: #FFF !important;
   text-align: center;
 }
+
+.banner {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+}
+.banner img { visibility: hidden; }
+
+.courses-banner {
+  background-color: rgb(256,256,256,65%);
+  background-blend-mode: screen;
+  background-image: url("{{ site.baseurl }}/images/006.jpg");
+  background-size: cover;
+}
+.faculty-banner {
+  background-image: url("{{ site.baseurl }}/images/001.jpg");
+}
+
+#teacher { padding-top: 15vh; }

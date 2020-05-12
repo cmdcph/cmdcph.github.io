@@ -8,7 +8,7 @@ layout: home
 </div>
 
 <div id="about" class="pure-g">
-  <div class="pure-u-1" id="vision">
+  <div class="pure-u-1 banner courses-banner" id="vision">
     <blockquote><i class="fas fa-quote-left fa-1x" aria-hidden="true"></i> We foresee Clever Minds Development Center to be a part in building a strong community through dedicated training and guidance of children. <i class="fas fa-quote-right fa-1x" aria-hidden="true"></i></blockquote>
   </div>
   {% include faculty.html%}
