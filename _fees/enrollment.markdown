@@ -10,9 +10,7 @@ index: 1
 | Miscellaneous Fee       |        5 600 |
 | Energy Fee              |        2 600 |
 | Computer Fee*           |        1 000 |
-| Athletic Fee            |          400 |
-| Library Fee             |          500 |
-| Medical & Dental Fee    |          700 |
+| Internet Fee            |        1 600 |
 | **TOTAL**               |**Php 31 200**|
 
 <small>*No computer fee for Toddler class.</small>
