@@ -13,7 +13,7 @@ index: 1
 
 <small>*Change in Enrollment Fees is due to COVID Pandemic</small>
 
-<small>*Price in books are subject to change</small>
+<small>*The price of books is subject to change</small>
 
 <small>*No need to wear uniform</small>
 
