@@ -11,7 +11,7 @@ index: 1
 | Energy Fee              |        2 500 |
 | **TOTAL**               |**Php 26 900**|
 
-<small>*Change in Enrollment Fees is due to COVID-19 Pandemic</small>
+<small>*Change in Enrollment Fees is due to COVID Pandemic</small>
 
 <small>*Price in books are subject to change</small>
 
