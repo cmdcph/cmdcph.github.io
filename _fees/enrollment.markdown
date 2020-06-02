@@ -5,14 +5,11 @@ index: 1
 
 | Fees                    | PHP          |
 | ----------------------- |-------------:|
-| Registration Fee        |        1 500 |
+| Registration Fee        |        2 000 |
 | Tuition Fee             |       18 900 |
-| Miscellaneous Fee       |        5 600 |
-| Energy Fee              |        2 600 |
-| Computer Fee*           |        1 000 |
-| Internet Fee            |        1 600 |
-| **TOTAL**               |**Php 31 200**|
+| Miscellaneous Fee       |        3 500 |
+| Energy Fee              |        2 500 |
+| **TOTAL**               |**Php 26 900**|
 
-<small>*No computer fee for Toddler class.</small>
+<small>*Change in Enrollment Fees is due to COVID-19 Pandemic</small>
 
-<small>*Miscellaneous: ID Card and Holder, Report Card, Notebooks with logo, Class picture, Test Papers & Computerized Materials, Insurance</small>
