@@ -6,10 +6,9 @@ index: 1
 | Fees                    | PHP          |
 | ----------------------- |-------------:|
 | Registration Fee        |        2 000 |
-| Tuition Fee             |       18 900 |
-| Miscellaneous Fee       |        3 500 |
-| Energy Fee              |        2 500 |
-| **TOTAL**               |**Php 26 900**|
+| Tuition Fee             |       22 500 |
+| Miscellaneous Fee       |        5 000 |
+| **TOTAL**               |**Php 29 500**|
 
 <small>*Change in Enrollment Fees is due to COVID Pandemic</small>
 
