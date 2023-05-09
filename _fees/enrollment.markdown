@@ -8,7 +8,8 @@ index: 1
 | Registration Fee        |        2 000 |
 | Tuition Fee             |       22 500 |
 | Miscellaneous Fee       |        5 000 |
-| **TOTAL**               |**Php 29 500**|
+| Energy Fee              |        5 000 |
+| **TOTAL**               |**Php 34 500**|
 
 <small>*Change in Enrollment Fees is due to COVID Pandemic</small>
 
